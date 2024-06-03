@@ -17,15 +17,19 @@
 ``` rosdep install -i --from-paths urg_node2 ```\
 ``` rosdep install -q -y -r --from-paths src --ignore-src ```
 
-<h2>Source workspace and package folders</h2>
+<h2>Source and build /h2>
 
 ``` source /opt/ros/<distro>/setup.bash ```, where <distro> is the current ROS 2 distribution.\
 ``` source /hokuyo_ws/install/local_setup.bash ```\
-``` /hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
-``` /hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
+``` source /hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
+``` source /hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
 
-<h2>Build and run nodes</h2>
+``` colcon build --symlink-install ```\
 
-``` colcon build colcon build --symlink-install ```\
+``` source /hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
+``` source /hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
+
+<h2>Run nodes</h2>
+
 ``` ros2 launch urg_node2 urg_node2.launch.py ```\
 ``` ros2 launch slam_toolbox online_sync_launch.py ```
