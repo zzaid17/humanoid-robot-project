@@ -1,17 +1,31 @@
-In case of missing dependencies, incorrect file paths, or other issues, go through the following steps when porting to the robot.
+<h1>In case of missing dependencies, incorrect file paths, or other issues, go through the following steps when porting between PCs or to the robot.</h1>
 
-Remove and reinstall packages from root directory
+<h2>Remove and reinstall packages from root directory</h2>
 
-Remove urg_node2: ``` rm -rf src/urg_node2 ```\
-Remove slam_toolbox: ``` rm -rf src/slam_toolbox ```
-Remove build, install, log files: ``` rm -rf build/ install/ log/ ```
+``` rm -rf src/urg_node2 ```\
+``` rm -rf src/slam_toolbox ``` \
+``` rm -rf build/ install/ log/ ```
 
-Reinstall packages from src directory
+<h2>Reinstall packages from src directory</h2>
 
-Install urg_node2: ``` git clone https://github.com/Hokuyo-aut/urg_node2 ```
-Install slam_toolbox package: ``` git clone https://github.com/SteveMacenski/slam_toolbox ```
+``` git clone https://github.com/Hokuyo-aut/urg_node2 ```\
+``` git clone https://github.com/SteveMacenski/slam_toolbox ```
 
-Install dependencies
-Update rosdep: ``` rosdep update ```
-Install urg_node2 dependencies: ``` rosdep install -i --from-paths urg_node2 ```
-Install slam_toolbox dependencies: ``` rosdep install -q -y -r --from-paths src --ignore-src ```
+<h2>Install dependencies</h2>
+
+``` rosdep update ```\
+``` rosdep install -i --from-paths urg_node2 ```\
+``` rosdep install -q -y -r --from-paths src --ignore-src ```
+
+<h2>Source workspace and package folders</h2>
+
+``` source /opt/ros/<distro>/setup.bash ```, where <distro> is the current ROS 2 distribution.\
+``` source /hokuyo_ws/install/local_setup.bash ```\
+``` /hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
+``` /hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
+
+<h2>Build and run nodes</h2>
+
+``` colcon build colcon build --symlink-install ```\
+``` ros2 launch urg_node2 urg_node2.launch.py ```\
+``` ros2 launch slam_toolbox online_sync_launch.py ```
