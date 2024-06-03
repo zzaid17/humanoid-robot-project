@@ -22,9 +22,9 @@
 ``` source /opt/ros/<distro>/setup.bash ```, where <distro> is the current ROS 2 distribution.\
 ``` source /hokuyo_laser_scanner_ws/install/local_setup.bash ```\
 ``` source /hokuyo_laser_scanner_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
-``` source /hokuyo_laser_scanner_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```\
+``` source /hokuyo_laser_scanner_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
 
-``` colcon build --symlink-install ```\
+``` colcon build --symlink-install ```
 
 ``` source /hokuyo_laser_scanner_ws/install/urg_node2/share/urg_node2/local_setup.bash ```\
 ``` source /hokuyo_laser_scanner_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash ```
