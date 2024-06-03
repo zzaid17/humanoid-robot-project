@@ -2,7 +2,7 @@ In case of missing dependencies, incorrect file paths, or other issues, go throu
 
 Remove and reinstall packages from root directory
 
-Remove urg_node2: ``` rm -rf src/urg_node2 ```
+Remove urg_node2: ``` rm -rf src/urg_node2 ```\
 Remove slam_toolbox: ``` rm -rf src/slam_toolbox ```
 Remove build, install, log files: ``` rm -rf build/ install/ log/ ```
 
