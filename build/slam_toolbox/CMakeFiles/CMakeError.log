@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73e3b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73e3b.dir/build.make CMakeFiles/cmTC_73e3b.dir/build
+gmake[1]: Entering directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73e3b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_73e3b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73e3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e3b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_73e3b.dir/CheckFunctionExists.c.o -o cmTC_73e3b 
+/usr/bin/ld: CMakeFiles/cmTC_73e3b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_73e3b.dir/build.make:99: cmTC_73e3b] Error 1
+gmake[1]: Leaving directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_73e3b/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94ee3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94ee3.dir/build.make CMakeFiles/cmTC_94ee3.dir/build
+gmake[1]: Entering directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94ee3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_94ee3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94ee3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ee3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_94ee3.dir/CheckFunctionExists.c.o -o cmTC_94ee3  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_94ee3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_94ee3.dir/build.make:100: cmTC_94ee3] Error 1
+gmake[1]: Leaving directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_94ee3/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95949/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95949.dir/build.make CMakeFiles/cmTC_95949.dir/build
+gmake[1]: Entering directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95949.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_95949.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95949.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_95949.dir/CheckFunctionExists.c.o -o cmTC_95949  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_95949.dir/build.make:101: cmTC_95949] Error 1
+gmake[1]: Leaving directory '/home/asis/hokuyo_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_95949/fast] Error 2
+
+
+

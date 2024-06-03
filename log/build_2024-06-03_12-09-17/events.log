@@ -1,0 +1,2011 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000251] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000289] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.009750] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.013297] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.013568] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/asis/hokuyo_ws/src/slam_toolbox', '-DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/install/slam_toolbox'], 'cwd': '/home/asis/hokuyo_ws/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'asis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asis/hokuyo_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asis'), ('OLDPWD', '/home/asis/hokuyo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asis/hokuyo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/asis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asis-Inspiron-3668:@/tmp/.ICE-unix/1724,unix/asis-Inspiron-3668:/tmp/.ICE-unix/1724'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbab77e_3e62_4ae8_bd9c_8dd9c471f06d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FJJMO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asis/hokuyo_ws/build/slam_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble')]), 'shell': False}
+[0.016826] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.017646] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[0.018653] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asis/hokuyo_ws/build/urg_node2', '--', '-j8', '-l8'], 'cwd': '/home/asis/hokuyo_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'asis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asis/hokuyo_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asis'), ('OLDPWD', '/home/asis/hokuyo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asis/hokuyo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/asis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asis-Inspiron-3668:@/tmp/.ICE-unix/1724,unix/asis-Inspiron-3668:/tmp/.ICE-unix/1724'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbab77e_3e62_4ae8_bd9c_8dd9c471f06d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FJJMO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asis/hokuyo_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble')]), 'shell': False}
+[0.099432] (-) TimerEvent: {}
+[0.107615] (urg_node2) StdoutLine: {'line': b'[ 45%] Built target urg_c\n'}
+[0.107873] (urg_node2) StdoutLine: {'line': b'[ 55%] Built target gtest_main\n'}
+[0.108072] (urg_node2) StdoutLine: {'line': b'[ 65%] Built target gtest\n'}
+[0.147948] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target urg_node2_node\n'}
+[0.155042] (urg_node2) StdoutLine: {'line': b'[ 90%] Built target urg_node2_test\n'}
+[0.155985] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2\n'}
+[0.157473] (slam_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.165565] (urg_node2) CommandEnded: {'returncode': 0}
+[0.199503] (-) TimerEvent: {}
+[0.213057] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[0.220748] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asis/hokuyo_ws/build/urg_node2'], 'cwd': '/home/asis/hokuyo_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'asis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asis/hokuyo_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asis'), ('OLDPWD', '/home/asis/hokuyo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asis/hokuyo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/asis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asis-Inspiron-3668:@/tmp/.ICE-unix/1724,unix/asis-Inspiron-3668:/tmp/.ICE-unix/1724'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbab77e_3e62_4ae8_bd9c_8dd9c471f06d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FJJMO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asis/hokuyo_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble')]), 'shell': False}
+[0.229074] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.229304] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[0.229654] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/lib/liburg_node2.so\n'}
+[0.230018] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/lib/liburg_c.so\n'}
+[0.230273] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/launch\n'}
+[0.230525] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[0.230590] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[0.230649] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[0.230707] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/config\n'}
+[0.230763] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[0.230819] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[0.230875] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[0.230930] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[0.231011] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[0.231067] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[0.231171] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[0.231241] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[0.231293] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[0.231342] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[0.231397] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[0.231452] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[0.231506] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[0.231616] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/package.dsv\n'}
+[0.231714] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[0.231767] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[0.231818] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[0.231867] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[0.231917] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/urg_node2/share/urg_node2/package.xml\n'}
+[0.233283] (urg_node2) CommandEnded: {'returncode': 0}
+[0.258857] (slam_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.269886] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299593] (-) TimerEvent: {}
+[0.303792] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[0.333956] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.340349] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.340820] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.341346] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.344604] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399689] (-) TimerEvent: {}
+[0.416104] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.422542] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.422816] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.423211] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.427645] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499776] (-) TimerEvent: {}
+[0.556687] (slam_toolbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599864] (-) TimerEvent: {}
+[0.648103] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.699935] (-) TimerEvent: {}
+[0.706563] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.712364] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.724141] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.741146] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.763739] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800009] (-) TimerEvent: {}
+[0.841506] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.845625] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900085] (-) TimerEvent: {}
+[0.944240] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.968753] (slam_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000175] (-) TimerEvent: {}
+[1.009514] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.021451] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.085377] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.085632] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100268] (-) TimerEvent: {}
+[1.149112] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.150076] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200354] (-) TimerEvent: {}
+[1.300573] (-) TimerEvent: {}
+[1.323408] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.400680] (-) TimerEvent: {}
+[1.451583] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.500765] (-) TimerEvent: {}
+[1.537848] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.552493] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.600856] (-) TimerEvent: {}
+[1.701058] (-) TimerEvent: {}
+[1.801288] (-) TimerEvent: {}
+[1.889361] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.901371] (-) TimerEvent: {}
+[2.001571] (-) TimerEvent: {}
+[2.011291] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.029800] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.045871] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.047659] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.047871] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.057674] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.6 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[2.078937] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.100058] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.101653] (-) TimerEvent: {}
+[2.111231] (slam_toolbox) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[2.131410] (slam_toolbox) StdoutLine: {'line': b'-- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)\n'}
+[2.201756] (-) TimerEvent: {}
+[2.220154] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[2.257787] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.260494] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.260576] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.260633] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.260686] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.260769] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.260821] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.260979] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[2.261057] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.261203] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.261266] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.261321] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.261372] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.261436] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.276407] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.279901] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.301844] (-) TimerEvent: {}
+[2.353251] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.353711] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.401963] (-) TimerEvent: {}
+[2.415464] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.415660] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.474098] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.474424] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.502057] (-) TimerEvent: {}
+[2.532304] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.532583] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.590957] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.591253] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.602143] (-) TimerEvent: {}
+[2.649979] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.650235] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.702241] (-) TimerEvent: {}
+[2.708677] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.710452] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.710536] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.776821] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.802324] (-) TimerEvent: {}
+[2.848745] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.12 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[2.902419] (-) TimerEvent: {}
+[3.002631] (-) TimerEvent: {}
+[3.102863] (-) TimerEvent: {}
+[3.186851] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization filesystem thread \n'}
+[3.194911] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.200864] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[3.202188] (slam_toolbox) StdoutLine: {'line': b'-- Found CSparse: /usr/include/suitesparse  \n'}
+[3.202945] (-) TimerEvent: {}
+[3.228770] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[3.288063] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[3.303042] (-) TimerEvent: {}
+[3.318512] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[3.380307] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[3.380672] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[3.382560] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[3.403157] (-) TimerEvent: {}
+[3.443858] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[3.452072] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[3.501173] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[3.501635] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[3.503238] (-) TimerEvent: {}
+[3.576604] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[3.576983] (slam_toolbox) StdoutLine: {'line': b'-- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[3.581038] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[3.585232] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[3.585778] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[3.586175] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[3.603338] (-) TimerEvent: {}
+[3.703555] (-) TimerEvent: {}
+[3.803755] (-) TimerEvent: {}
+[3.904016] (-) TimerEvent: {}
+[3.945928] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.004120] (-) TimerEvent: {}
+[4.104342] (-) TimerEvent: {}
+[4.204565] (-) TimerEvent: {}
+[4.304784] (-) TimerEvent: {}
+[4.397800] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.404870] (-) TimerEvent: {}
+[4.505065] (-) TimerEvent: {}
+[4.571879] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.591384] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.593244] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.605158] (-) TimerEvent: {}
+[4.616172] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.616347] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.616414] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.616469] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.634548] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.705274] (-) TimerEvent: {}
+[4.805505] (-) TimerEvent: {}
+[4.905735] (-) TimerEvent: {}
+[4.934752] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.005850] (-) TimerEvent: {}
+[5.106087] (-) TimerEvent: {}
+[5.206324] (-) TimerEvent: {}
+[5.306559] (-) TimerEvent: {}
+[5.370378] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[5.374652] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/asis/hokuyo_ws/build/slam_toolbox\n'}
+[5.390729] (slam_toolbox) CommandEnded: {'returncode': 0}
+[5.391607] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[5.392868] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asis/hokuyo_ws/build/slam_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/asis/hokuyo_ws/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'asis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asis/hokuyo_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asis'), ('OLDPWD', '/home/asis/hokuyo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asis/hokuyo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/asis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asis-Inspiron-3668:@/tmp/.ICE-unix/1724,unix/asis-Inspiron-3668:/tmp/.ICE-unix/1724'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbab77e_3e62_4ae8_bd9c_8dd9c471f06d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FJJMO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asis/hokuyo_ws/build/slam_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble')]), 'shell': False}
+[5.406671] (-) TimerEvent: {}
+[5.434536] (slam_toolbox) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.447390] (slam_toolbox) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.447870] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[5.448049] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o\x1b[0m\n'}
+[5.452212] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_slam_toolbox\n'}
+[5.506770] (-) TimerEvent: {}
+[5.607033] (-) TimerEvent: {}
+[5.683144] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[5.683792] (slam_toolbox) StdoutLine: {'line': b'creating slam_toolbox.egg-info\n'}
+[5.684006] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[5.684201] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[5.684396] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[5.684637] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[5.686824] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[5.687308] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[5.707116] (-) TimerEvent: {}
+[5.711406] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[5.807207] (-) TimerEvent: {}
+[5.907465] (-) TimerEvent: {}
+[6.007794] (-) TimerEvent: {}
+[6.108040] (-) TimerEvent: {}
+[6.208266] (-) TimerEvent: {}
+[6.308528] (-) TimerEvent: {}
+[6.408817] (-) TimerEvent: {}
+[6.462049] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target slam_toolbox__cpp\n'}
+[6.472511] (slam_toolbox) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.476040] (slam_toolbox) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.476536] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.508909] (-) TimerEvent: {}
+[6.609170] (-) TimerEvent: {}
+[6.709412] (-) TimerEvent: {}
+[6.809729] (-) TimerEvent: {}
+[6.849084] (slam_toolbox) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o\x1b[0m\n'}
+[6.849286] (slam_toolbox) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/reset__functions.c.o\x1b[0m\n'}
+[6.857196] (slam_toolbox) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o\x1b[0m\n'}
+[6.909826] (-) TimerEvent: {}
+[7.010095] (-) TimerEvent: {}
+[7.053521] (slam_toolbox) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o\x1b[0m\n'}
+[7.056817] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o\x1b[0m\n'}
+[7.059662] (slam_toolbox) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[7.110197] (-) TimerEvent: {}
+[7.210485] (-) TimerEvent: {}
+[7.228357] (slam_toolbox) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o\x1b[0m\n'}
+[7.234087] (slam_toolbox) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o\x1b[0m\n'}
+[7.246490] (slam_toolbox) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o\x1b[0m\n'}
+[7.310587] (-) TimerEvent: {}
+[7.404564] (slam_toolbox) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o\x1b[0m\n'}
+[7.410692] (-) TimerEvent: {}
+[7.412386] (slam_toolbox) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o\x1b[0m\n'}
+[7.510800] (-) TimerEvent: {}
+[7.573411] (slam_toolbox) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o\x1b[0m\n'}
+[7.573650] (slam_toolbox) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/reset__type_support.cpp.o\x1b[0m\n'}
+[7.573784] (slam_toolbox) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[7.596898] (slam_toolbox) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so\x1b[0m\n'}
+[7.610893] (-) TimerEvent: {}
+[7.659227] (slam_toolbox) StdoutLine: {'line': b'[ 16%] Built target slam_toolbox__rosidl_generator_c\n'}
+[7.673882] (slam_toolbox) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.710992] (-) TimerEvent: {}
+[7.811357] (-) TimerEvent: {}
+[7.911770] (-) TimerEvent: {}
+[8.004187] (slam_toolbox) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[8.010387] (slam_toolbox) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o\x1b[0m\n'}
+[8.011862] (-) TimerEvent: {}
+[8.034524] (slam_toolbox) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o\x1b[0m\n'}
+[8.050029] (slam_toolbox) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[8.111957] (-) TimerEvent: {}
+[8.212247] (-) TimerEvent: {}
+[8.312367] (slam_toolbox) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o\x1b[0m\n'}
+[8.312568] (-) TimerEvent: {}
+[8.412807] (-) TimerEvent: {}
+[8.454639] (slam_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[8.456883] (slam_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[8.509086] (slam_toolbox) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o\x1b[0m\n'}
+[8.512901] (-) TimerEvent: {}
+[8.613205] (-) TimerEvent: {}
+[8.685398] (slam_toolbox) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/reset__type_support.cpp.o\x1b[0m\n'}
+[8.713312] (-) TimerEvent: {}
+[8.813641] (-) TimerEvent: {}
+[8.875810] (slam_toolbox) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.886457] (slam_toolbox) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[8.913755] (-) TimerEvent: {}
+[8.949205] (slam_toolbox) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[8.986428] (slam_toolbox) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/reset__type_support.cpp.o\x1b[0m\n'}
+[9.013853] (-) TimerEvent: {}
+[9.114196] (-) TimerEvent: {}
+[9.214585] (-) TimerEvent: {}
+[9.314950] (-) TimerEvent: {}
+[9.326090] (slam_toolbox) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.331249] (slam_toolbox) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[9.349779] (slam_toolbox) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o\x1b[0m\n'}
+[9.391029] (slam_toolbox) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o\x1b[0m\n'}
+[9.399827] (slam_toolbox) StdoutLine: {'line': b'[ 27%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[9.411749] (slam_toolbox) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/reset__type_support_c.cpp.o\x1b[0m\n'}
+[9.415050] (-) TimerEvent: {}
+[9.515376] (-) TimerEvent: {}
+[9.560230] (slam_toolbox) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[9.615544] (-) TimerEvent: {}
+[9.644829] (slam_toolbox) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[9.715608] (-) TimerEvent: {}
+[9.815944] (-) TimerEvent: {}
+[9.916314] (-) TimerEvent: {}
+[9.947070] (slam_toolbox) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[9.966031] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o\x1b[0m\n'}
+[9.966301] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[10.005092] (slam_toolbox) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o\x1b[0m\n'}
+[10.016408] (-) TimerEvent: {}
+[10.116743] (-) TimerEvent: {}
+[10.199193] (slam_toolbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o\x1b[0m\n'}
+[10.216850] (-) TimerEvent: {}
+[10.296468] (slam_toolbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[10.316963] (-) TimerEvent: {}
+[10.417261] (-) TimerEvent: {}
+[10.517577] (-) TimerEvent: {}
+[10.532894] (slam_toolbox) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o\x1b[0m\n'}
+[10.557983] (slam_toolbox) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[10.575616] (slam_toolbox) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[10.599159] (slam_toolbox) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[10.617689] (-) TimerEvent: {}
+[10.718031] (-) TimerEvent: {}
+[10.818391] (-) TimerEvent: {}
+[10.825773] (slam_toolbox) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o\x1b[0m\n'}
+[10.918499] (-) TimerEvent: {}
+[10.965943] (slam_toolbox) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o\x1b[0m\n'}
+[11.018609] (-) TimerEvent: {}
+[11.086764] (slam_toolbox) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o\x1b[0m\n'}
+[11.118727] (-) TimerEvent: {}
+[11.204117] (slam_toolbox) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o\x1b[0m\n'}
+[11.209354] (slam_toolbox) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o\x1b[0m\n'}
+[11.218840] (-) TimerEvent: {}
+[11.229174] (slam_toolbox) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.318973] (-) TimerEvent: {}
+[11.353571] (slam_toolbox) StdoutLine: {'line': b'[ 40%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[11.368762] (slam_toolbox) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.394184] (slam_toolbox) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o\x1b[0m\n'}
+[11.419072] (-) TimerEvent: {}
+[11.519405] (-) TimerEvent: {}
+[11.619733] (-) TimerEvent: {}
+[11.622806] (slam_toolbox) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[11.663410] (slam_toolbox) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[11.719830] (-) TimerEvent: {}
+[11.820138] (-) TimerEvent: {}
+[11.833454] (slam_toolbox) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[11.891178] (slam_toolbox) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o\x1b[0m\n'}
+[11.920242] (-) TimerEvent: {}
+[11.990251] (slam_toolbox) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.020343] (-) TimerEvent: {}
+[12.120662] (-) TimerEvent: {}
+[12.130256] (slam_toolbox) StdoutLine: {'line': b'[ 46%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[12.146724] (slam_toolbox) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.220784] (-) TimerEvent: {}
+[12.246459] (slam_toolbox) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[12.320911] (-) TimerEvent: {}
+[12.322796] (slam_toolbox) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[12.421012] (-) TimerEvent: {}
+[12.509111] (slam_toolbox) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp\x1b[0m\n'}
+[12.521122] (-) TimerEvent: {}
+[12.546715] (slam_toolbox) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o\x1b[0m\n'}
+[12.599341] (slam_toolbox) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o\x1b[0m\n'}
+[12.621222] (-) TimerEvent: {}
+[12.721538] (-) TimerEvent: {}
+[12.821848] (-) TimerEvent: {}
+[12.922167] (-) TimerEvent: {}
+[12.997700] (slam_toolbox) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.022281] (-) TimerEvent: {}
+[13.083328] (slam_toolbox) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/reset__type_support.c.o\x1b[0m\n'}
+[13.087398] (slam_toolbox) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o\x1b[0m\n'}
+[13.122400] (-) TimerEvent: {}
+[13.141064] (slam_toolbox) StdoutLine: {'line': b'[ 52%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[13.152438] (slam_toolbox) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o\x1b[0m\n'}
+[13.155822] (slam_toolbox) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o\x1b[0m\n'}
+[13.157290] (slam_toolbox) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o\x1b[0m\n'}
+[13.214655] (slam_toolbox) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[13.220205] (slam_toolbox) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o\x1b[0m\n'}
+[13.222497] (-) TimerEvent: {}
+[13.225528] (slam_toolbox) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o\x1b[0m\n'}
+[13.287392] (slam_toolbox) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o\x1b[0m\n'}
+[13.297898] (slam_toolbox) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o\x1b[0m\n'}
+[13.304798] (slam_toolbox) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o\x1b[0m\n'}
+[13.322637] (-) TimerEvent: {}
+[13.372634] (slam_toolbox) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.390864] (slam_toolbox) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o\x1b[0m\n'}
+[13.391228] (slam_toolbox) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o\x1b[0m\n'}
+[13.391918] (slam_toolbox) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/reset__type_support.cpp.o\x1b[0m\n'}
+[13.422747] (-) TimerEvent: {}
+[13.432618] (slam_toolbox) StdoutLine: {'line': b'[ 61%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[13.443514] (slam_toolbox) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o\x1b[0m\n'}
+[13.443904] (slam_toolbox) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o\x1b[0m\n'}
+[13.444150] (slam_toolbox) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[13.447209] (slam_toolbox) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o\x1b[0m\n'}
+[13.493920] (slam_toolbox) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o\x1b[0m\n'}
+[13.496170] (slam_toolbox) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o\x1b[0m\n'}
+[13.498496] (slam_toolbox) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[13.499365] (slam_toolbox) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o\x1b[0m\n'}
+[13.522857] (-) TimerEvent: {}
+[13.550594] (slam_toolbox) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.600489] (slam_toolbox) StdoutLine: {'line': b'[ 67%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[13.619797] (slam_toolbox) StdoutLine: {'line': b'[ 67%] Built target slam_toolbox\n'}
+[13.622964] (-) TimerEvent: {}
+[13.640310] (slam_toolbox) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.723083] (-) TimerEvent: {}
+[13.823417] (-) TimerEvent: {}
+[13.923746] (-) TimerEvent: {}
+[14.024041] (-) TimerEvent: {}
+[14.124354] (-) TimerEvent: {}
+[14.224687] (-) TimerEvent: {}
+[14.324977] (-) TimerEvent: {}
+[14.425283] (-) TimerEvent: {}
+[14.525590] (-) TimerEvent: {}
+[14.625884] (-) TimerEvent: {}
+[14.726177] (-) TimerEvent: {}
+[14.826485] (-) TimerEvent: {}
+[14.926776] (-) TimerEvent: {}
+[15.027081] (-) TimerEvent: {}
+[15.127393] (-) TimerEvent: {}
+[15.227735] (-) TimerEvent: {}
+[15.328030] (-) TimerEvent: {}
+[15.428323] (-) TimerEvent: {}
+[15.528625] (-) TimerEvent: {}
+[15.581942] (slam_toolbox) StdoutLine: {'line': b'[ 68%] Built target slam_toolbox__py\n'}
+[15.605941] (slam_toolbox) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_reset_s.c.o\x1b[0m\n'}
+[15.606220] (slam_toolbox) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o\x1b[0m\n'}
+[15.606351] (slam_toolbox) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o\x1b[0m\n'}
+[15.606461] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o\x1b[0m\n'}
+[15.628738] (-) TimerEvent: {}
+[15.729095] (-) TimerEvent: {}
+[15.821811] (slam_toolbox) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o\x1b[0m\n'}
+[15.822095] (slam_toolbox) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o\x1b[0m\n'}
+[15.822222] (slam_toolbox) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o\x1b[0m\n'}
+[15.829223] (-) TimerEvent: {}
+[15.830850] (slam_toolbox) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o\x1b[0m\n'}
+[15.929326] (-) TimerEvent: {}
+[16.028168] (slam_toolbox) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o\x1b[0m\n'}
+[16.029434] (-) TimerEvent: {}
+[16.042064] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o\x1b[0m\n'}
+[16.043614] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o\x1b[0m\n'}
+[16.129559] (-) TimerEvent: {}
+[16.229884] (-) TimerEvent: {}
+[16.263281] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\x1b[0m\n'}
+[16.311471] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target slam_toolbox__rosidl_generator_py\n'}
+[16.329987] (-) TimerEvent: {}
+[16.339160] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.339413] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.339568] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.430105] (-) TimerEvent: {}
+[16.530533] (-) TimerEvent: {}
+[16.630984] (-) TimerEvent: {}
+[16.731424] (-) TimerEvent: {}
+[16.831845] (-) TimerEvent: {}
+[16.912061] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.915237] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.925934] (slam_toolbox) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.931964] (-) TimerEvent: {}
+[16.982455] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[16.993390] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.997772] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[17.032068] (-) TimerEvent: {}
+[17.132401] (-) TimerEvent: {}
+[17.232732] (-) TimerEvent: {}
+[17.333059] (-) TimerEvent: {}
+[17.433374] (-) TimerEvent: {}
+[17.533690] (-) TimerEvent: {}
+[17.634026] (-) TimerEvent: {}
+[17.734341] (-) TimerEvent: {}
+[17.834663] (-) TimerEvent: {}
+[17.934974] (-) TimerEvent: {}
+[18.035301] (-) TimerEvent: {}
+[18.135618] (-) TimerEvent: {}
+[18.235931] (-) TimerEvent: {}
+[18.336226] (-) TimerEvent: {}
+[18.436527] (-) TimerEvent: {}
+[18.536843] (-) TimerEvent: {}
+[18.637157] (-) TimerEvent: {}
+[18.737467] (-) TimerEvent: {}
+[18.837808] (-) TimerEvent: {}
+[18.938158] (-) TimerEvent: {}
+[19.038528] (-) TimerEvent: {}
+[19.138874] (-) TimerEvent: {}
+[19.239192] (-) TimerEvent: {}
+[19.339518] (-) TimerEvent: {}
+[19.439914] (-) TimerEvent: {}
+[19.540215] (-) TimerEvent: {}
+[19.640512] (-) TimerEvent: {}
+[19.740820] (-) TimerEvent: {}
+[19.841132] (-) TimerEvent: {}
+[19.941445] (-) TimerEvent: {}
+[20.041742] (-) TimerEvent: {}
+[20.142045] (-) TimerEvent: {}
+[20.242363] (-) TimerEvent: {}
+[20.342682] (-) TimerEvent: {}
+[20.443014] (-) TimerEvent: {}
+[20.543348] (-) TimerEvent: {}
+[20.643677] (-) TimerEvent: {}
+[20.743988] (-) TimerEvent: {}
+[20.844288] (-) TimerEvent: {}
+[20.944597] (-) TimerEvent: {}
+[21.044931] (-) TimerEvent: {}
+[21.145210] (-) TimerEvent: {}
+[21.245509] (-) TimerEvent: {}
+[21.345798] (-) TimerEvent: {}
+[21.446091] (-) TimerEvent: {}
+[21.546381] (-) TimerEvent: {}
+[21.646661] (-) TimerEvent: {}
+[21.746931] (-) TimerEvent: {}
+[21.847220] (-) TimerEvent: {}
+[21.947495] (-) TimerEvent: {}
+[22.047785] (-) TimerEvent: {}
+[22.148060] (-) TimerEvent: {}
+[22.248342] (-) TimerEvent: {}
+[22.348626] (-) TimerEvent: {}
+[22.448912] (-) TimerEvent: {}
+[22.549187] (-) TimerEvent: {}
+[22.649467] (-) TimerEvent: {}
+[22.749763] (-) TimerEvent: {}
+[22.850046] (-) TimerEvent: {}
+[22.950326] (-) TimerEvent: {}
+[23.050612] (-) TimerEvent: {}
+[23.150907] (-) TimerEvent: {}
+[23.251197] (-) TimerEvent: {}
+[23.351500] (-) TimerEvent: {}
+[23.451845] (-) TimerEvent: {}
+[23.552123] (-) TimerEvent: {}
+[23.652403] (-) TimerEvent: {}
+[23.752689] (-) TimerEvent: {}
+[23.852953] (-) TimerEvent: {}
+[23.953217] (-) TimerEvent: {}
+[24.053493] (-) TimerEvent: {}
+[24.153775] (-) TimerEvent: {}
+[24.254063] (-) TimerEvent: {}
+[24.354347] (-) TimerEvent: {}
+[24.454633] (-) TimerEvent: {}
+[24.554913] (-) TimerEvent: {}
+[24.655191] (-) TimerEvent: {}
+[24.755473] (-) TimerEvent: {}
+[24.855754] (-) TimerEvent: {}
+[24.956035] (-) TimerEvent: {}
+[25.056310] (-) TimerEvent: {}
+[25.156574] (-) TimerEvent: {}
+[25.256842] (-) TimerEvent: {}
+[25.357103] (-) TimerEvent: {}
+[25.457376] (-) TimerEvent: {}
+[25.557638] (-) TimerEvent: {}
+[25.657894] (-) TimerEvent: {}
+[25.758158] (-) TimerEvent: {}
+[25.858440] (-) TimerEvent: {}
+[25.958710] (-) TimerEvent: {}
+[26.058974] (-) TimerEvent: {}
+[26.159237] (-) TimerEvent: {}
+[26.259501] (-) TimerEvent: {}
+[26.359805] (-) TimerEvent: {}
+[26.460087] (-) TimerEvent: {}
+[26.560362] (-) TimerEvent: {}
+[26.660637] (-) TimerEvent: {}
+[26.760920] (-) TimerEvent: {}
+[26.861234] (-) TimerEvent: {}
+[26.924810] (slam_toolbox) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libkartoSlamToolbox.so\x1b[0m\n'}
+[26.961342] (-) TimerEvent: {}
+[27.061692] (-) TimerEvent: {}
+[27.162023] (-) TimerEvent: {}
+[27.262306] (-) TimerEvent: {}
+[27.310109] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target kartoSlamToolbox\n'}
+[27.330613] (slam_toolbox) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o\x1b[0m\n'}
+[27.332721] (slam_toolbox) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o\x1b[0m\n'}
+[27.332996] (slam_toolbox) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o\x1b[0m\n'}
+[27.333134] (slam_toolbox) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o\x1b[0m\n'}
+[27.333255] (slam_toolbox) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o\x1b[0m\n'}
+[27.333375] (slam_toolbox) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o\x1b[0m\n'}
+[27.362421] (-) TimerEvent: {}
+[27.462805] (-) TimerEvent: {}
+[27.563223] (-) TimerEvent: {}
+[27.663930] (-) TimerEvent: {}
+[27.764329] (-) TimerEvent: {}
+[27.864735] (-) TimerEvent: {}
+[27.965123] (-) TimerEvent: {}
+[28.065534] (-) TimerEvent: {}
+[28.165955] (-) TimerEvent: {}
+[28.266377] (-) TimerEvent: {}
+[28.366854] (-) TimerEvent: {}
+[28.467320] (-) TimerEvent: {}
+[28.567622] (-) TimerEvent: {}
+[28.667945] (-) TimerEvent: {}
+[28.768377] (-) TimerEvent: {}
+[28.868762] (-) TimerEvent: {}
+[28.969087] (-) TimerEvent: {}
+[29.069388] (-) TimerEvent: {}
+[29.169734] (-) TimerEvent: {}
+[29.270244] (-) TimerEvent: {}
+[29.370696] (-) TimerEvent: {}
+[29.471129] (-) TimerEvent: {}
+[29.571477] (-) TimerEvent: {}
+[29.671894] (-) TimerEvent: {}
+[29.772308] (-) TimerEvent: {}
+[29.872627] (-) TimerEvent: {}
+[29.973020] (-) TimerEvent: {}
+[30.073453] (-) TimerEvent: {}
+[30.173760] (-) TimerEvent: {}
+[30.274070] (-) TimerEvent: {}
+[30.374380] (-) TimerEvent: {}
+[30.474688] (-) TimerEvent: {}
+[30.574984] (-) TimerEvent: {}
+[30.675313] (-) TimerEvent: {}
+[30.775634] (-) TimerEvent: {}
+[30.876003] (-) TimerEvent: {}
+[30.976407] (-) TimerEvent: {}
+[31.076827] (-) TimerEvent: {}
+[31.177308] (-) TimerEvent: {}
+[31.277828] (-) TimerEvent: {}
+[31.378359] (-) TimerEvent: {}
+[31.478710] (-) TimerEvent: {}
+[31.579053] (-) TimerEvent: {}
+[31.679405] (-) TimerEvent: {}
+[31.779768] (-) TimerEvent: {}
+[31.880182] (-) TimerEvent: {}
+[31.980611] (-) TimerEvent: {}
+[32.080956] (-) TimerEvent: {}
+[32.181409] (-) TimerEvent: {}
+[32.281862] (-) TimerEvent: {}
+[32.382296] (-) TimerEvent: {}
+[32.482717] (-) TimerEvent: {}
+[32.583200] (-) TimerEvent: {}
+[32.683623] (-) TimerEvent: {}
+[32.784095] (-) TimerEvent: {}
+[32.884454] (-) TimerEvent: {}
+[32.984795] (-) TimerEvent: {}
+[33.085133] (-) TimerEvent: {}
+[33.185469] (-) TimerEvent: {}
+[33.285804] (-) TimerEvent: {}
+[33.386140] (-) TimerEvent: {}
+[33.486480] (-) TimerEvent: {}
+[33.586801] (-) TimerEvent: {}
+[33.687166] (-) TimerEvent: {}
+[33.787584] (-) TimerEvent: {}
+[33.887947] (-) TimerEvent: {}
+[33.988432] (-) TimerEvent: {}
+[34.088960] (-) TimerEvent: {}
+[34.189367] (-) TimerEvent: {}
+[34.289772] (-) TimerEvent: {}
+[34.390312] (-) TimerEvent: {}
+[34.490756] (-) TimerEvent: {}
+[34.591112] (-) TimerEvent: {}
+[34.691440] (-) TimerEvent: {}
+[34.791800] (-) TimerEvent: {}
+[34.892152] (-) TimerEvent: {}
+[34.992494] (-) TimerEvent: {}
+[35.092855] (-) TimerEvent: {}
+[35.193132] (-) TimerEvent: {}
+[35.293427] (-) TimerEvent: {}
+[35.393746] (-) TimerEvent: {}
+[35.494046] (-) TimerEvent: {}
+[35.594333] (-) TimerEvent: {}
+[35.694650] (-) TimerEvent: {}
+[35.794953] (-) TimerEvent: {}
+[35.895383] (-) TimerEvent: {}
+[35.995811] (-) TimerEvent: {}
+[36.096258] (-) TimerEvent: {}
+[36.196708] (-) TimerEvent: {}
+[36.297237] (-) TimerEvent: {}
+[36.397703] (-) TimerEvent: {}
+[36.498114] (-) TimerEvent: {}
+[36.598546] (-) TimerEvent: {}
+[36.698981] (-) TimerEvent: {}
+[36.799429] (-) TimerEvent: {}
+[36.899914] (-) TimerEvent: {}
+[37.000361] (-) TimerEvent: {}
+[37.100708] (-) TimerEvent: {}
+[37.201045] (-) TimerEvent: {}
+[37.270551] (slam_toolbox) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libSlamToolboxPlugin.so\x1b[0m\n'}
+[37.301152] (-) TimerEvent: {}
+[37.401607] (-) TimerEvent: {}
+[37.501932] (-) TimerEvent: {}
+[37.602256] (-) TimerEvent: {}
+[37.702662] (-) TimerEvent: {}
+[37.803205] (-) TimerEvent: {}
+[37.903728] (-) TimerEvent: {}
+[38.004329] (-) TimerEvent: {}
+[38.104886] (-) TimerEvent: {}
+[38.205403] (-) TimerEvent: {}
+[38.305916] (-) TimerEvent: {}
+[38.406423] (-) TimerEvent: {}
+[38.507071] (-) TimerEvent: {}
+[38.607725] (-) TimerEvent: {}
+[38.708106] (-) TimerEvent: {}
+[38.808536] (-) TimerEvent: {}
+[38.909057] (-) TimerEvent: {}
+[39.009567] (-) TimerEvent: {}
+[39.110280] (-) TimerEvent: {}
+[39.210917] (-) TimerEvent: {}
+[39.311381] (-) TimerEvent: {}
+[39.412102] (-) TimerEvent: {}
+[39.512781] (-) TimerEvent: {}
+[39.613491] (-) TimerEvent: {}
+[39.714194] (-) TimerEvent: {}
+[39.814893] (-) TimerEvent: {}
+[39.915598] (-) TimerEvent: {}
+[40.016141] (-) TimerEvent: {}
+[40.116545] (-) TimerEvent: {}
+[40.217092] (-) TimerEvent: {}
+[40.239361] (slam_toolbox) StdoutLine: {'line': b'[ 84%] Built target SlamToolboxPlugin\n'}
+[40.317212] (-) TimerEvent: {}
+[40.417557] (-) TimerEvent: {}
+[40.517893] (-) TimerEvent: {}
+[40.618227] (-) TimerEvent: {}
+[40.718568] (-) TimerEvent: {}
+[40.818909] (-) TimerEvent: {}
+[40.919241] (-) TimerEvent: {}
+[41.019610] (-) TimerEvent: {}
+[41.119951] (-) TimerEvent: {}
+[41.220294] (-) TimerEvent: {}
+[41.320630] (-) TimerEvent: {}
+[41.420984] (-) TimerEvent: {}
+[41.521336] (-) TimerEvent: {}
+[41.621684] (-) TimerEvent: {}
+[41.722061] (-) TimerEvent: {}
+[41.822451] (-) TimerEvent: {}
+[41.922924] (-) TimerEvent: {}
+[42.023276] (-) TimerEvent: {}
+[42.123607] (-) TimerEvent: {}
+[42.223874] (-) TimerEvent: {}
+[42.324219] (-) TimerEvent: {}
+[42.424550] (-) TimerEvent: {}
+[42.524889] (-) TimerEvent: {}
+[42.625265] (-) TimerEvent: {}
+[42.725654] (-) TimerEvent: {}
+[42.826004] (-) TimerEvent: {}
+[42.926343] (-) TimerEvent: {}
+[43.026677] (-) TimerEvent: {}
+[43.126996] (-) TimerEvent: {}
+[43.227344] (-) TimerEvent: {}
+[43.327752] (-) TimerEvent: {}
+[43.428110] (-) TimerEvent: {}
+[43.528436] (-) TimerEvent: {}
+[43.628805] (-) TimerEvent: {}
+[43.712934] (slam_toolbox) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libceres_solver_plugin.so\x1b[0m\n'}
+[43.728921] (-) TimerEvent: {}
+[43.829358] (-) TimerEvent: {}
+[43.929805] (-) TimerEvent: {}
+[44.030193] (-) TimerEvent: {}
+[44.130546] (-) TimerEvent: {}
+[44.230892] (-) TimerEvent: {}
+[44.331205] (-) TimerEvent: {}
+[44.379475] (slam_toolbox) StdoutLine: {'line': b'[ 84%] Built target ceres_solver_plugin\n'}
+[44.431333] (-) TimerEvent: {}
+[44.531611] (-) TimerEvent: {}
+[44.631876] (-) TimerEvent: {}
+[44.732151] (-) TimerEvent: {}
+[44.832420] (-) TimerEvent: {}
+[44.932729] (-) TimerEvent: {}
+[45.033034] (-) TimerEvent: {}
+[45.133394] (-) TimerEvent: {}
+[45.233721] (-) TimerEvent: {}
+[45.334003] (-) TimerEvent: {}
+[45.434291] (-) TimerEvent: {}
+[45.534586] (-) TimerEvent: {}
+[45.634854] (-) TimerEvent: {}
+[45.735122] (-) TimerEvent: {}
+[45.835389] (-) TimerEvent: {}
+[45.935630] (-) TimerEvent: {}
+[46.035910] (-) TimerEvent: {}
+[46.136206] (-) TimerEvent: {}
+[46.236510] (-) TimerEvent: {}
+[46.336793] (-) TimerEvent: {}
+[46.437070] (-) TimerEvent: {}
+[46.537352] (-) TimerEvent: {}
+[46.637639] (-) TimerEvent: {}
+[46.737932] (-) TimerEvent: {}
+[46.838217] (-) TimerEvent: {}
+[46.938500] (-) TimerEvent: {}
+[47.038804] (-) TimerEvent: {}
+[47.139112] (-) TimerEvent: {}
+[47.239400] (-) TimerEvent: {}
+[47.339707] (-) TimerEvent: {}
+[47.439982] (-) TimerEvent: {}
+[47.540268] (-) TimerEvent: {}
+[47.640555] (-) TimerEvent: {}
+[47.740835] (-) TimerEvent: {}
+[47.841121] (-) TimerEvent: {}
+[47.941393] (-) TimerEvent: {}
+[48.041684] (-) TimerEvent: {}
+[48.141973] (-) TimerEvent: {}
+[48.242281] (-) TimerEvent: {}
+[48.342565] (-) TimerEvent: {}
+[48.442840] (-) TimerEvent: {}
+[48.543120] (-) TimerEvent: {}
+[48.643399] (-) TimerEvent: {}
+[48.743695] (-) TimerEvent: {}
+[48.843967] (-) TimerEvent: {}
+[48.944248] (-) TimerEvent: {}
+[49.044529] (-) TimerEvent: {}
+[49.144815] (-) TimerEvent: {}
+[49.245099] (-) TimerEvent: {}
+[49.345370] (-) TimerEvent: {}
+[49.445651] (-) TimerEvent: {}
+[49.545936] (-) TimerEvent: {}
+[49.646217] (-) TimerEvent: {}
+[49.746493] (-) TimerEvent: {}
+[49.846776] (-) TimerEvent: {}
+[49.947051] (-) TimerEvent: {}
+[50.047324] (-) TimerEvent: {}
+[50.147606] (-) TimerEvent: {}
+[50.247884] (-) TimerEvent: {}
+[50.348174] (-) TimerEvent: {}
+[50.448467] (-) TimerEvent: {}
+[50.548763] (-) TimerEvent: {}
+[50.649049] (-) TimerEvent: {}
+[50.749333] (-) TimerEvent: {}
+[50.849612] (-) TimerEvent: {}
+[50.949874] (-) TimerEvent: {}
+[51.050126] (-) TimerEvent: {}
+[51.150381] (-) TimerEvent: {}
+[51.250637] (-) TimerEvent: {}
+[51.350892] (-) TimerEvent: {}
+[51.451147] (-) TimerEvent: {}
+[51.551404] (-) TimerEvent: {}
+[51.651695] (-) TimerEvent: {}
+[51.751946] (-) TimerEvent: {}
+[51.852195] (-) TimerEvent: {}
+[51.952441] (-) TimerEvent: {}
+[52.052695] (-) TimerEvent: {}
+[52.152954] (-) TimerEvent: {}
+[52.253216] (-) TimerEvent: {}
+[52.353482] (-) TimerEvent: {}
+[52.453753] (-) TimerEvent: {}
+[52.554026] (-) TimerEvent: {}
+[52.654291] (-) TimerEvent: {}
+[52.754545] (-) TimerEvent: {}
+[52.854783] (-) TimerEvent: {}
+[52.955056] (-) TimerEvent: {}
+[53.055302] (-) TimerEvent: {}
+[53.155554] (-) TimerEvent: {}
+[53.255800] (-) TimerEvent: {}
+[53.356044] (-) TimerEvent: {}
+[53.456286] (-) TimerEvent: {}
+[53.556529] (-) TimerEvent: {}
+[53.656771] (-) TimerEvent: {}
+[53.757012] (-) TimerEvent: {}
+[53.857259] (-) TimerEvent: {}
+[53.957504] (-) TimerEvent: {}
+[54.057750] (-) TimerEvent: {}
+[54.157997] (-) TimerEvent: {}
+[54.258243] (-) TimerEvent: {}
+[54.358486] (-) TimerEvent: {}
+[54.458729] (-) TimerEvent: {}
+[54.558981] (-) TimerEvent: {}
+[54.659224] (-) TimerEvent: {}
+[54.759465] (-) TimerEvent: {}
+[54.859697] (-) TimerEvent: {}
+[54.959943] (-) TimerEvent: {}
+[55.060193] (-) TimerEvent: {}
+[55.160440] (-) TimerEvent: {}
+[55.260691] (-) TimerEvent: {}
+[55.360942] (-) TimerEvent: {}
+[55.461187] (-) TimerEvent: {}
+[55.561433] (-) TimerEvent: {}
+[55.661678] (-) TimerEvent: {}
+[55.761923] (-) TimerEvent: {}
+[55.862166] (-) TimerEvent: {}
+[55.962418] (-) TimerEvent: {}
+[56.062664] (-) TimerEvent: {}
+[56.162911] (-) TimerEvent: {}
+[56.263159] (-) TimerEvent: {}
+[56.363400] (-) TimerEvent: {}
+[56.463654] (-) TimerEvent: {}
+[56.563905] (-) TimerEvent: {}
+[56.664153] (-) TimerEvent: {}
+[56.764395] (-) TimerEvent: {}
+[56.864639] (-) TimerEvent: {}
+[56.964886] (-) TimerEvent: {}
+[57.065136] (-) TimerEvent: {}
+[57.165382] (-) TimerEvent: {}
+[57.265641] (-) TimerEvent: {}
+[57.365893] (-) TimerEvent: {}
+[57.466136] (-) TimerEvent: {}
+[57.566387] (-) TimerEvent: {}
+[57.666645] (-) TimerEvent: {}
+[57.766891] (-) TimerEvent: {}
+[57.867138] (-) TimerEvent: {}
+[57.967383] (-) TimerEvent: {}
+[58.067650] (-) TimerEvent: {}
+[58.167906] (-) TimerEvent: {}
+[58.268152] (-) TimerEvent: {}
+[58.368398] (-) TimerEvent: {}
+[58.468647] (-) TimerEvent: {}
+[58.568901] (-) TimerEvent: {}
+[58.669144] (-) TimerEvent: {}
+[58.769395] (-) TimerEvent: {}
+[58.869642] (-) TimerEvent: {}
+[58.969899] (-) TimerEvent: {}
+[59.070153] (-) TimerEvent: {}
+[59.170396] (-) TimerEvent: {}
+[59.270647] (-) TimerEvent: {}
+[59.370898] (-) TimerEvent: {}
+[59.471150] (-) TimerEvent: {}
+[59.571398] (-) TimerEvent: {}
+[59.671662] (-) TimerEvent: {}
+[59.771913] (-) TimerEvent: {}
+[59.872162] (-) TimerEvent: {}
+[59.972411] (-) TimerEvent: {}
+[60.072660] (-) TimerEvent: {}
+[60.172920] (-) TimerEvent: {}
+[60.273172] (-) TimerEvent: {}
+[60.373411] (-) TimerEvent: {}
+[60.473691] (-) TimerEvent: {}
+[60.573948] (-) TimerEvent: {}
+[60.674202] (-) TimerEvent: {}
+[60.774508] (-) TimerEvent: {}
+[60.874762] (-) TimerEvent: {}
+[60.974999] (-) TimerEvent: {}
+[61.075294] (-) TimerEvent: {}
+[61.175562] (-) TimerEvent: {}
+[61.275810] (-) TimerEvent: {}
+[61.376061] (-) TimerEvent: {}
+[61.476316] (-) TimerEvent: {}
+[61.576575] (-) TimerEvent: {}
+[61.676827] (-) TimerEvent: {}
+[61.777078] (-) TimerEvent: {}
+[61.877330] (-) TimerEvent: {}
+[61.977580] (-) TimerEvent: {}
+[62.077829] (-) TimerEvent: {}
+[62.178087] (-) TimerEvent: {}
+[62.278360] (-) TimerEvent: {}
+[62.378608] (-) TimerEvent: {}
+[62.478860] (-) TimerEvent: {}
+[62.579108] (-) TimerEvent: {}
+[62.679358] (-) TimerEvent: {}
+[62.779641] (-) TimerEvent: {}
+[62.879887] (-) TimerEvent: {}
+[62.980135] (-) TimerEvent: {}
+[63.080386] (-) TimerEvent: {}
+[63.180634] (-) TimerEvent: {}
+[63.280888] (-) TimerEvent: {}
+[63.381129] (-) TimerEvent: {}
+[63.481380] (-) TimerEvent: {}
+[63.581630] (-) TimerEvent: {}
+[63.681873] (-) TimerEvent: {}
+[63.782133] (-) TimerEvent: {}
+[63.882389] (-) TimerEvent: {}
+[63.982639] (-) TimerEvent: {}
+[64.082891] (-) TimerEvent: {}
+[64.183136] (-) TimerEvent: {}
+[64.283389] (-) TimerEvent: {}
+[64.383648] (-) TimerEvent: {}
+[64.483895] (-) TimerEvent: {}
+[64.584164] (-) TimerEvent: {}
+[64.684431] (-) TimerEvent: {}
+[64.784684] (-) TimerEvent: {}
+[64.884945] (-) TimerEvent: {}
+[64.946132] (slam_toolbox) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libtoolbox_common.so\x1b[0m\n'}
+[64.985060] (-) TimerEvent: {}
+[65.085331] (-) TimerEvent: {}
+[65.185624] (-) TimerEvent: {}
+[65.285924] (-) TimerEvent: {}
+[65.386240] (-) TimerEvent: {}
+[65.486504] (-) TimerEvent: {}
+[65.578265] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target toolbox_common\n'}
+[65.586625] (-) TimerEvent: {}
+[65.598216] (slam_toolbox) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o\x1b[0m\n'}
+[65.598459] (slam_toolbox) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o\x1b[0m\n'}
+[65.598614] (slam_toolbox) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o\x1b[0m\n'}
+[65.601716] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o\x1b[0m\n'}
+[65.605530] (slam_toolbox) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o\x1b[0m\n'}
+[65.686730] (-) TimerEvent: {}
+[65.787049] (-) TimerEvent: {}
+[65.887407] (-) TimerEvent: {}
+[65.987719] (-) TimerEvent: {}
+[66.088026] (-) TimerEvent: {}
+[66.188345] (-) TimerEvent: {}
+[66.288646] (-) TimerEvent: {}
+[66.388962] (-) TimerEvent: {}
+[66.489287] (-) TimerEvent: {}
+[66.589615] (-) TimerEvent: {}
+[66.689929] (-) TimerEvent: {}
+[66.790245] (-) TimerEvent: {}
+[66.890540] (-) TimerEvent: {}
+[66.990853] (-) TimerEvent: {}
+[67.091177] (-) TimerEvent: {}
+[67.191521] (-) TimerEvent: {}
+[67.291871] (-) TimerEvent: {}
+[67.392195] (-) TimerEvent: {}
+[67.492666] (-) TimerEvent: {}
+[67.592998] (-) TimerEvent: {}
+[67.693337] (-) TimerEvent: {}
+[67.793664] (-) TimerEvent: {}
+[67.893986] (-) TimerEvent: {}
+[67.994333] (-) TimerEvent: {}
+[68.094667] (-) TimerEvent: {}
+[68.194990] (-) TimerEvent: {}
+[68.295333] (-) TimerEvent: {}
+[68.395720] (-) TimerEvent: {}
+[68.496052] (-) TimerEvent: {}
+[68.596425] (-) TimerEvent: {}
+[68.696729] (-) TimerEvent: {}
+[68.797049] (-) TimerEvent: {}
+[68.897370] (-) TimerEvent: {}
+[68.997709] (-) TimerEvent: {}
+[69.098061] (-) TimerEvent: {}
+[69.198389] (-) TimerEvent: {}
+[69.298730] (-) TimerEvent: {}
+[69.399040] (-) TimerEvent: {}
+[69.499364] (-) TimerEvent: {}
+[69.599688] (-) TimerEvent: {}
+[69.700004] (-) TimerEvent: {}
+[69.800322] (-) TimerEvent: {}
+[69.900640] (-) TimerEvent: {}
+[70.000964] (-) TimerEvent: {}
+[70.101301] (-) TimerEvent: {}
+[70.201647] (-) TimerEvent: {}
+[70.301993] (-) TimerEvent: {}
+[70.402355] (-) TimerEvent: {}
+[70.502696] (-) TimerEvent: {}
+[70.603028] (-) TimerEvent: {}
+[70.703355] (-) TimerEvent: {}
+[70.803679] (-) TimerEvent: {}
+[70.903992] (-) TimerEvent: {}
+[71.004295] (-) TimerEvent: {}
+[71.104594] (-) TimerEvent: {}
+[71.204913] (-) TimerEvent: {}
+[71.305294] (-) TimerEvent: {}
+[71.405593] (-) TimerEvent: {}
+[71.505899] (-) TimerEvent: {}
+[71.606229] (-) TimerEvent: {}
+[71.706553] (-) TimerEvent: {}
+[71.806866] (-) TimerEvent: {}
+[71.907200] (-) TimerEvent: {}
+[72.007522] (-) TimerEvent: {}
+[72.107858] (-) TimerEvent: {}
+[72.208189] (-) TimerEvent: {}
+[72.308522] (-) TimerEvent: {}
+[72.408825] (-) TimerEvent: {}
+[72.509141] (-) TimerEvent: {}
+[72.609465] (-) TimerEvent: {}
+[72.709772] (-) TimerEvent: {}
+[72.810080] (-) TimerEvent: {}
+[72.910385] (-) TimerEvent: {}
+[73.010702] (-) TimerEvent: {}
+[73.111035] (-) TimerEvent: {}
+[73.211406] (-) TimerEvent: {}
+[73.311753] (-) TimerEvent: {}
+[73.412070] (-) TimerEvent: {}
+[73.512377] (-) TimerEvent: {}
+[73.612681] (-) TimerEvent: {}
+[73.712984] (-) TimerEvent: {}
+[73.813290] (-) TimerEvent: {}
+[73.913601] (-) TimerEvent: {}
+[74.013934] (-) TimerEvent: {}
+[74.114303] (-) TimerEvent: {}
+[74.214634] (-) TimerEvent: {}
+[74.314949] (-) TimerEvent: {}
+[74.415271] (-) TimerEvent: {}
+[74.515602] (-) TimerEvent: {}
+[74.615922] (-) TimerEvent: {}
+[74.716239] (-) TimerEvent: {}
+[74.816558] (-) TimerEvent: {}
+[74.916881] (-) TimerEvent: {}
+[75.017204] (-) TimerEvent: {}
+[75.117535] (-) TimerEvent: {}
+[75.217886] (-) TimerEvent: {}
+[75.318218] (-) TimerEvent: {}
+[75.418534] (-) TimerEvent: {}
+[75.518870] (-) TimerEvent: {}
+[75.619231] (-) TimerEvent: {}
+[75.719562] (-) TimerEvent: {}
+[75.819881] (-) TimerEvent: {}
+[75.920200] (-) TimerEvent: {}
+[76.020516] (-) TimerEvent: {}
+[76.120842] (-) TimerEvent: {}
+[76.221147] (-) TimerEvent: {}
+[76.321461] (-) TimerEvent: {}
+[76.421796] (-) TimerEvent: {}
+[76.522151] (-) TimerEvent: {}
+[76.622469] (-) TimerEvent: {}
+[76.722782] (-) TimerEvent: {}
+[76.823129] (-) TimerEvent: {}
+[76.923494] (-) TimerEvent: {}
+[77.023848] (-) TimerEvent: {}
+[77.124171] (-) TimerEvent: {}
+[77.224489] (-) TimerEvent: {}
+[77.324829] (-) TimerEvent: {}
+[77.425197] (-) TimerEvent: {}
+[77.525518] (-) TimerEvent: {}
+[77.625841] (-) TimerEvent: {}
+[77.726180] (-) TimerEvent: {}
+[77.826496] (-) TimerEvent: {}
+[77.926824] (-) TimerEvent: {}
+[78.027185] (-) TimerEvent: {}
+[78.127503] (-) TimerEvent: {}
+[78.227842] (-) TimerEvent: {}
+[78.328210] (-) TimerEvent: {}
+[78.428519] (-) TimerEvent: {}
+[78.528831] (-) TimerEvent: {}
+[78.550602] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libasync_slam_toolbox.so\x1b[0m\n'}
+[78.628997] (-) TimerEvent: {}
+[78.729477] (-) TimerEvent: {}
+[78.829992] (-) TimerEvent: {}
+[78.930431] (-) TimerEvent: {}
+[79.030972] (-) TimerEvent: {}
+[79.131475] (-) TimerEvent: {}
+[79.231927] (-) TimerEvent: {}
+[79.332390] (-) TimerEvent: {}
+[79.418753] (slam_toolbox) StdoutLine: {'line': b'[ 90%] Built target async_slam_toolbox\n'}
+[79.432492] (-) TimerEvent: {}
+[79.439473] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o\x1b[0m\n'}
+[79.532601] (-) TimerEvent: {}
+[79.632904] (-) TimerEvent: {}
+[79.733197] (-) TimerEvent: {}
+[79.736036] (slam_toolbox) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libsync_slam_toolbox.so\x1b[0m\n'}
+[79.833371] (-) TimerEvent: {}
+[79.933924] (-) TimerEvent: {}
+[80.034294] (-) TimerEvent: {}
+[80.134671] (-) TimerEvent: {}
+[80.235100] (-) TimerEvent: {}
+[80.335568] (-) TimerEvent: {}
+[80.435966] (-) TimerEvent: {}
+[80.464900] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target sync_slam_toolbox\n'}
+[80.485016] (slam_toolbox) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o\x1b[0m\n'}
+[80.536076] (-) TimerEvent: {}
+[80.636418] (-) TimerEvent: {}
+[80.736733] (-) TimerEvent: {}
+[80.837017] (-) TimerEvent: {}
+[80.937326] (-) TimerEvent: {}
+[81.037666] (-) TimerEvent: {}
+[81.137984] (-) TimerEvent: {}
+[81.238292] (-) TimerEvent: {}
+[81.338629] (-) TimerEvent: {}
+[81.438928] (-) TimerEvent: {}
+[81.539216] (-) TimerEvent: {}
+[81.639518] (-) TimerEvent: {}
+[81.739815] (-) TimerEvent: {}
+[81.840127] (-) TimerEvent: {}
+[81.940441] (-) TimerEvent: {}
+[82.040770] (-) TimerEvent: {}
+[82.141137] (-) TimerEvent: {}
+[82.241442] (-) TimerEvent: {}
+[82.341768] (-) TimerEvent: {}
+[82.442081] (-) TimerEvent: {}
+[82.542382] (-) TimerEvent: {}
+[82.642681] (-) TimerEvent: {}
+[82.743023] (-) TimerEvent: {}
+[82.843408] (-) TimerEvent: {}
+[82.943795] (-) TimerEvent: {}
+[83.044100] (-) TimerEvent: {}
+[83.144402] (-) TimerEvent: {}
+[83.244705] (-) TimerEvent: {}
+[83.345016] (-) TimerEvent: {}
+[83.445330] (-) TimerEvent: {}
+[83.545657] (-) TimerEvent: {}
+[83.645953] (-) TimerEvent: {}
+[83.746286] (-) TimerEvent: {}
+[83.846608] (-) TimerEvent: {}
+[83.946910] (-) TimerEvent: {}
+[84.047212] (-) TimerEvent: {}
+[84.147505] (-) TimerEvent: {}
+[84.247823] (-) TimerEvent: {}
+[84.348186] (-) TimerEvent: {}
+[84.448497] (-) TimerEvent: {}
+[84.548808] (-) TimerEvent: {}
+[84.649133] (-) TimerEvent: {}
+[84.749462] (-) TimerEvent: {}
+[84.849774] (-) TimerEvent: {}
+[84.950077] (-) TimerEvent: {}
+[84.992573] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library liblifelong_slam_toolbox.so\x1b[0m\n'}
+[85.050256] (-) TimerEvent: {}
+[85.150769] (-) TimerEvent: {}
+[85.251216] (-) TimerEvent: {}
+[85.351577] (-) TimerEvent: {}
+[85.451917] (-) TimerEvent: {}
+[85.552284] (-) TimerEvent: {}
+[85.652738] (-) TimerEvent: {}
+[85.753150] (-) TimerEvent: {}
+[85.853558] (-) TimerEvent: {}
+[85.953996] (-) TimerEvent: {}
+[86.054577] (-) TimerEvent: {}
+[86.155021] (-) TimerEvent: {}
+[86.193614] (slam_toolbox) StdoutLine: {'line': b'[ 93%] Built target lifelong_slam_toolbox\n'}
+[86.236503] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o\x1b[0m\n'}
+[86.255128] (-) TimerEvent: {}
+[86.355455] (-) TimerEvent: {}
+[86.455879] (-) TimerEvent: {}
+[86.556262] (-) TimerEvent: {}
+[86.656628] (-) TimerEvent: {}
+[86.756987] (-) TimerEvent: {}
+[86.857364] (-) TimerEvent: {}
+[86.957692] (-) TimerEvent: {}
+[87.058112] (-) TimerEvent: {}
+[87.081828] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_slam_toolbox.so\x1b[0m\n'}
+[87.158277] (-) TimerEvent: {}
+[87.258791] (-) TimerEvent: {}
+[87.359345] (-) TimerEvent: {}
+[87.460002] (-) TimerEvent: {}
+[87.560417] (-) TimerEvent: {}
+[87.660842] (-) TimerEvent: {}
+[87.761281] (-) TimerEvent: {}
+[87.861726] (-) TimerEvent: {}
+[87.962069] (-) TimerEvent: {}
+[88.026806] (slam_toolbox) StdoutLine: {'line': b'[ 93%] Built target localization_slam_toolbox\n'}
+[88.061223] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox.dir/src/experimental/slam_toolbox_map_and_localization.cpp.o\x1b[0m\n'}
+[88.062129] (-) TimerEvent: {}
+[88.064109] (slam_toolbox) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o\x1b[0m\n'}
+[88.162240] (-) TimerEvent: {}
+[88.262560] (-) TimerEvent: {}
+[88.362892] (-) TimerEvent: {}
+[88.463186] (-) TimerEvent: {}
+[88.563477] (-) TimerEvent: {}
+[88.663804] (-) TimerEvent: {}
+[88.764108] (-) TimerEvent: {}
+[88.864411] (-) TimerEvent: {}
+[88.964709] (-) TimerEvent: {}
+[89.065071] (-) TimerEvent: {}
+[89.165419] (-) TimerEvent: {}
+[89.265730] (-) TimerEvent: {}
+[89.366043] (-) TimerEvent: {}
+[89.466355] (-) TimerEvent: {}
+[89.566683] (-) TimerEvent: {}
+[89.667002] (-) TimerEvent: {}
+[89.767358] (-) TimerEvent: {}
+[89.867698] (-) TimerEvent: {}
+[89.968019] (-) TimerEvent: {}
+[90.068350] (-) TimerEvent: {}
+[90.168675] (-) TimerEvent: {}
+[90.269026] (-) TimerEvent: {}
+[90.332272] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable merge_maps_kinematic\x1b[0m\n'}
+[90.369131] (-) TimerEvent: {}
+[90.469543] (-) TimerEvent: {}
+[90.569994] (-) TimerEvent: {}
+[90.670439] (-) TimerEvent: {}
+[90.771027] (-) TimerEvent: {}
+[90.871543] (-) TimerEvent: {}
+[90.972185] (-) TimerEvent: {}
+[91.072754] (-) TimerEvent: {}
+[91.173235] (-) TimerEvent: {}
+[91.273648] (-) TimerEvent: {}
+[91.327377] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target merge_maps_kinematic\n'}
+[91.373772] (-) TimerEvent: {}
+[91.474088] (-) TimerEvent: {}
+[91.574412] (-) TimerEvent: {}
+[91.674708] (-) TimerEvent: {}
+[91.775039] (-) TimerEvent: {}
+[91.875377] (-) TimerEvent: {}
+[91.975738] (-) TimerEvent: {}
+[92.076040] (-) TimerEvent: {}
+[92.176391] (-) TimerEvent: {}
+[92.276750] (-) TimerEvent: {}
+[92.377069] (-) TimerEvent: {}
+[92.477383] (-) TimerEvent: {}
+[92.577716] (-) TimerEvent: {}
+[92.678040] (-) TimerEvent: {}
+[92.778347] (-) TimerEvent: {}
+[92.878665] (-) TimerEvent: {}
+[92.978994] (-) TimerEvent: {}
+[93.079315] (-) TimerEvent: {}
+[93.179635] (-) TimerEvent: {}
+[93.279963] (-) TimerEvent: {}
+[93.380290] (-) TimerEvent: {}
+[93.480593] (-) TimerEvent: {}
+[93.580979] (-) TimerEvent: {}
+[93.681285] (-) TimerEvent: {}
+[93.781596] (-) TimerEvent: {}
+[93.881914] (-) TimerEvent: {}
+[93.982218] (-) TimerEvent: {}
+[94.082521] (-) TimerEvent: {}
+[94.135574] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable async_slam_toolbox_node\x1b[0m\n'}
+[94.182650] (-) TimerEvent: {}
+[94.282994] (-) TimerEvent: {}
+[94.383407] (-) TimerEvent: {}
+[94.483935] (-) TimerEvent: {}
+[94.584400] (-) TimerEvent: {}
+[94.658864] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target async_slam_toolbox_node\n'}
+[94.684508] (-) TimerEvent: {}
+[94.784815] (-) TimerEvent: {}
+[94.842916] (slam_toolbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable sync_slam_toolbox_node\x1b[0m\n'}
+[94.884948] (-) TimerEvent: {}
+[94.985328] (-) TimerEvent: {}
+[95.085708] (-) TimerEvent: {}
+[95.186172] (-) TimerEvent: {}
+[95.286648] (-) TimerEvent: {}
+[95.330449] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target sync_slam_toolbox_node\n'}
+[95.386769] (-) TimerEvent: {}
+[95.487084] (-) TimerEvent: {}
+[95.587382] (-) TimerEvent: {}
+[95.687704] (-) TimerEvent: {}
+[95.787985] (-) TimerEvent: {}
+[95.888290] (-) TimerEvent: {}
+[95.988592] (-) TimerEvent: {}
+[96.088890] (-) TimerEvent: {}
+[96.189187] (-) TimerEvent: {}
+[96.289478] (-) TimerEvent: {}
+[96.389772] (-) TimerEvent: {}
+[96.490069] (-) TimerEvent: {}
+[96.590366] (-) TimerEvent: {}
+[96.690669] (-) TimerEvent: {}
+[96.790978] (-) TimerEvent: {}
+[96.891303] (-) TimerEvent: {}
+[96.991583] (-) TimerEvent: {}
+[97.091859] (-) TimerEvent: {}
+[97.192128] (-) TimerEvent: {}
+[97.292410] (-) TimerEvent: {}
+[97.392705] (-) TimerEvent: {}
+[97.493008] (-) TimerEvent: {}
+[97.593271] (-) TimerEvent: {}
+[97.693558] (-) TimerEvent: {}
+[97.793854] (-) TimerEvent: {}
+[97.894121] (-) TimerEvent: {}
+[97.994395] (-) TimerEvent: {}
+[98.094667] (-) TimerEvent: {}
+[98.194928] (-) TimerEvent: {}
+[98.295194] (-) TimerEvent: {}
+[98.395478] (-) TimerEvent: {}
+[98.495743] (-) TimerEvent: {}
+[98.596022] (-) TimerEvent: {}
+[98.696319] (-) TimerEvent: {}
+[98.796593] (-) TimerEvent: {}
+[98.896874] (-) TimerEvent: {}
+[98.997153] (-) TimerEvent: {}
+[99.097422] (-) TimerEvent: {}
+[99.197708] (-) TimerEvent: {}
+[99.298001] (-) TimerEvent: {}
+[99.398298] (-) TimerEvent: {}
+[99.498568] (-) TimerEvent: {}
+[99.598841] (-) TimerEvent: {}
+[99.699116] (-) TimerEvent: {}
+[99.799381] (-) TimerEvent: {}
+[99.899699] (-) TimerEvent: {}
+[99.999996] (-) TimerEvent: {}
+[100.100305] (-) TimerEvent: {}
+[100.200604] (-) TimerEvent: {}
+[100.300902] (-) TimerEvent: {}
+[100.401212] (-) TimerEvent: {}
+[100.493296] (slam_toolbox) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lifelong_slam_toolbox_node\x1b[0m\n'}
+[100.501328] (-) TimerEvent: {}
+[100.601674] (-) TimerEvent: {}
+[100.702058] (-) TimerEvent: {}
+[100.802436] (-) TimerEvent: {}
+[100.902822] (-) TimerEvent: {}
+[100.932745] (slam_toolbox) StdoutLine: {'line': b'[ 97%] Built target lifelong_slam_toolbox_node\n'}
+[101.002951] (-) TimerEvent: {}
+[101.103217] (-) TimerEvent: {}
+[101.203475] (-) TimerEvent: {}
+[101.303740] (-) TimerEvent: {}
+[101.404003] (-) TimerEvent: {}
+[101.504259] (-) TimerEvent: {}
+[101.604513] (-) TimerEvent: {}
+[101.704770] (-) TimerEvent: {}
+[101.805036] (-) TimerEvent: {}
+[101.905302] (-) TimerEvent: {}
+[102.005573] (-) TimerEvent: {}
+[102.105852] (-) TimerEvent: {}
+[102.206122] (-) TimerEvent: {}
+[102.306380] (-) TimerEvent: {}
+[102.406638] (-) TimerEvent: {}
+[102.506895] (-) TimerEvent: {}
+[102.607151] (-) TimerEvent: {}
+[102.707414] (-) TimerEvent: {}
+[102.780815] (slam_toolbox) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable localization_slam_toolbox_node\x1b[0m\n'}
+[102.807571] (-) TimerEvent: {}
+[102.907841] (-) TimerEvent: {}
+[103.008140] (-) TimerEvent: {}
+[103.108461] (-) TimerEvent: {}
+[103.180168] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target localization_slam_toolbox_node\n'}
+[103.208574] (-) TimerEvent: {}
+[103.308819] (-) TimerEvent: {}
+[103.409064] (-) TimerEvent: {}
+[103.509342] (-) TimerEvent: {}
+[103.609592] (-) TimerEvent: {}
+[103.709837] (-) TimerEvent: {}
+[103.810080] (-) TimerEvent: {}
+[103.910329] (-) TimerEvent: {}
+[104.010575] (-) TimerEvent: {}
+[104.110827] (-) TimerEvent: {}
+[104.211084] (-) TimerEvent: {}
+[104.311343] (-) TimerEvent: {}
+[104.411602] (-) TimerEvent: {}
+[104.511862] (-) TimerEvent: {}
+[104.612108] (-) TimerEvent: {}
+[104.712348] (-) TimerEvent: {}
+[104.812587] (-) TimerEvent: {}
+[104.912825] (-) TimerEvent: {}
+[105.013062] (-) TimerEvent: {}
+[105.113300] (-) TimerEvent: {}
+[105.213537] (-) TimerEvent: {}
+[105.313779] (-) TimerEvent: {}
+[105.414019] (-) TimerEvent: {}
+[105.514258] (-) TimerEvent: {}
+[105.614500] (-) TimerEvent: {}
+[105.714757] (-) TimerEvent: {}
+[105.814996] (-) TimerEvent: {}
+[105.915234] (-) TimerEvent: {}
+[106.015476] (-) TimerEvent: {}
+[106.115710] (-) TimerEvent: {}
+[106.215957] (-) TimerEvent: {}
+[106.316200] (-) TimerEvent: {}
+[106.416446] (-) TimerEvent: {}
+[106.516695] (-) TimerEvent: {}
+[106.616941] (-) TimerEvent: {}
+[106.717185] (-) TimerEvent: {}
+[106.817423] (-) TimerEvent: {}
+[106.917662] (-) TimerEvent: {}
+[107.017902] (-) TimerEvent: {}
+[107.118144] (-) TimerEvent: {}
+[107.218385] (-) TimerEvent: {}
+[107.318622] (-) TimerEvent: {}
+[107.418870] (-) TimerEvent: {}
+[107.519115] (-) TimerEvent: {}
+[107.619357] (-) TimerEvent: {}
+[107.719612] (-) TimerEvent: {}
+[107.819850] (-) TimerEvent: {}
+[107.920091] (-) TimerEvent: {}
+[108.020331] (-) TimerEvent: {}
+[108.120575] (-) TimerEvent: {}
+[108.220820] (-) TimerEvent: {}
+[108.321065] (-) TimerEvent: {}
+[108.421312] (-) TimerEvent: {}
+[108.521552] (-) TimerEvent: {}
+[108.621801] (-) TimerEvent: {}
+[108.722052] (-) TimerEvent: {}
+[108.822298] (-) TimerEvent: {}
+[108.922549] (-) TimerEvent: {}
+[109.022798] (-) TimerEvent: {}
+[109.123042] (-) TimerEvent: {}
+[109.223291] (-) TimerEvent: {}
+[109.323547] (-) TimerEvent: {}
+[109.423793] (-) TimerEvent: {}
+[109.524052] (-) TimerEvent: {}
+[109.624310] (-) TimerEvent: {}
+[109.724586] (-) TimerEvent: {}
+[109.754986] (slam_toolbox) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX shared library libmap_and_localization_slam_toolbox.so\x1b[0m\n'}
+[109.824696] (-) TimerEvent: {}
+[109.925009] (-) TimerEvent: {}
+[110.025317] (-) TimerEvent: {}
+[110.125636] (-) TimerEvent: {}
+[110.225946] (-) TimerEvent: {}
+[110.242030] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target map_and_localization_slam_toolbox\n'}
+[110.260532] (slam_toolbox) StdoutLine: {'line': b'[100%] \x1b[32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox_node.dir/src/experimental/slam_toolbox_map_and_localization_node.cpp.o\x1b[0m\n'}
+[110.326055] (-) TimerEvent: {}
+[110.426292] (-) TimerEvent: {}
+[110.526533] (-) TimerEvent: {}
+[110.626778] (-) TimerEvent: {}
+[110.727023] (-) TimerEvent: {}
+[110.827264] (-) TimerEvent: {}
+[110.927501] (-) TimerEvent: {}
+[111.027756] (-) TimerEvent: {}
+[111.127999] (-) TimerEvent: {}
+[111.228252] (-) TimerEvent: {}
+[111.328499] (-) TimerEvent: {}
+[111.428746] (-) TimerEvent: {}
+[111.528989] (-) TimerEvent: {}
+[111.629231] (-) TimerEvent: {}
+[111.729472] (-) TimerEvent: {}
+[111.829729] (-) TimerEvent: {}
+[111.929990] (-) TimerEvent: {}
+[112.030237] (-) TimerEvent: {}
+[112.130507] (-) TimerEvent: {}
+[112.230756] (-) TimerEvent: {}
+[112.331000] (-) TimerEvent: {}
+[112.431252] (-) TimerEvent: {}
+[112.531510] (-) TimerEvent: {}
+[112.631788] (-) TimerEvent: {}
+[112.732037] (-) TimerEvent: {}
+[112.832289] (-) TimerEvent: {}
+[112.932540] (-) TimerEvent: {}
+[113.032789] (-) TimerEvent: {}
+[113.133040] (-) TimerEvent: {}
+[113.233302] (-) TimerEvent: {}
+[113.333555] (-) TimerEvent: {}
+[113.433803] (-) TimerEvent: {}
+[113.534052] (-) TimerEvent: {}
+[113.634338] (-) TimerEvent: {}
+[113.734596] (-) TimerEvent: {}
+[113.834847] (-) TimerEvent: {}
+[113.935111] (-) TimerEvent: {}
+[114.035374] (-) TimerEvent: {}
+[114.135606] (-) TimerEvent: {}
+[114.235854] (-) TimerEvent: {}
+[114.336106] (-) TimerEvent: {}
+[114.436354] (-) TimerEvent: {}
+[114.536600] (-) TimerEvent: {}
+[114.636849] (-) TimerEvent: {}
+[114.737098] (-) TimerEvent: {}
+[114.837345] (-) TimerEvent: {}
+[114.937593] (-) TimerEvent: {}
+[115.037851] (-) TimerEvent: {}
+[115.138113] (-) TimerEvent: {}
+[115.238370] (-) TimerEvent: {}
+[115.338624] (-) TimerEvent: {}
+[115.438869] (-) TimerEvent: {}
+[115.539120] (-) TimerEvent: {}
+[115.639385] (-) TimerEvent: {}
+[115.739644] (-) TimerEvent: {}
+[115.839896] (-) TimerEvent: {}
+[115.940162] (-) TimerEvent: {}
+[116.040432] (-) TimerEvent: {}
+[116.140690] (-) TimerEvent: {}
+[116.240951] (-) TimerEvent: {}
+[116.341207] (-) TimerEvent: {}
+[116.441455] (-) TimerEvent: {}
+[116.541708] (-) TimerEvent: {}
+[116.641965] (-) TimerEvent: {}
+[116.742220] (-) TimerEvent: {}
+[116.842472] (-) TimerEvent: {}
+[116.942724] (-) TimerEvent: {}
+[117.043000] (-) TimerEvent: {}
+[117.143271] (-) TimerEvent: {}
+[117.243557] (-) TimerEvent: {}
+[117.343786] (-) TimerEvent: {}
+[117.444050] (-) TimerEvent: {}
+[117.544309] (-) TimerEvent: {}
+[117.644564] (-) TimerEvent: {}
+[117.744822] (-) TimerEvent: {}
+[117.845071] (-) TimerEvent: {}
+[117.945323] (-) TimerEvent: {}
+[118.045584] (-) TimerEvent: {}
+[118.145839] (-) TimerEvent: {}
+[118.246100] (-) TimerEvent: {}
+[118.346352] (-) TimerEvent: {}
+[118.446604] (-) TimerEvent: {}
+[118.546858] (-) TimerEvent: {}
+[118.647108] (-) TimerEvent: {}
+[118.747376] (-) TimerEvent: {}
+[118.847623] (-) TimerEvent: {}
+[118.947863] (-) TimerEvent: {}
+[119.048107] (-) TimerEvent: {}
+[119.148351] (-) TimerEvent: {}
+[119.248603] (-) TimerEvent: {}
+[119.348854] (-) TimerEvent: {}
+[119.449093] (-) TimerEvent: {}
+[119.549332] (-) TimerEvent: {}
+[119.649572] (-) TimerEvent: {}
+[119.749811] (-) TimerEvent: {}
+[119.850060] (-) TimerEvent: {}
+[119.950298] (-) TimerEvent: {}
+[120.050547] (-) TimerEvent: {}
+[120.150791] (-) TimerEvent: {}
+[120.251037] (-) TimerEvent: {}
+[120.351277] (-) TimerEvent: {}
+[120.451520] (-) TimerEvent: {}
+[120.551800] (-) TimerEvent: {}
+[120.652037] (-) TimerEvent: {}
+[120.752281] (-) TimerEvent: {}
+[120.852519] (-) TimerEvent: {}
+[120.920047] (slam_toolbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_and_localization_slam_toolbox_node\x1b[0m\n'}
+[120.952639] (-) TimerEvent: {}
+[121.052895] (-) TimerEvent: {}
+[121.153152] (-) TimerEvent: {}
+[121.253415] (-) TimerEvent: {}
+[121.284866] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target map_and_localization_slam_toolbox_node\n'}
+[121.295976] (slam_toolbox) CommandEnded: {'returncode': 0}
+[121.353487] (-) TimerEvent: {}
+[121.453673] (-) TimerEvent: {}
+[121.553881] (-) TimerEvent: {}
+[121.571741] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[121.572679] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asis/hokuyo_ws/build/slam_toolbox'], 'cwd': '/home/asis/hokuyo_ws/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'asis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asis/hokuyo_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asis'), ('OLDPWD', '/home/asis/hokuyo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asis/hokuyo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/asis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asis-Inspiron-3668:@/tmp/.ICE-unix/1724,unix/asis-Inspiron-3668:/tmp/.ICE-unix/1724'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fbab77e_3e62_4ae8_bd9c_8dd9c471f06d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FJJMO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asis/hokuyo_ws/build/slam_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe625850af2588a123a66c2665a0edf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asis/hokuyo_ws/install/urg_node2:/opt/ros/humble')]), 'shell': False}
+[121.580031] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[121.580226] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[121.580404] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.580594] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.580672] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h\n'}
+[121.580788] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.h\n'}
+[121.580929] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h\n'}
+[121.581067] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h\n'}
+[121.581160] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[121.581238] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[121.581343] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h\n'}
+[121.581466] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.581595] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[121.581770] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h\n'}
+[121.581876] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h\n'}
+[121.581976] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[121.582134] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[121.582264] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[121.582363] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[121.582471] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.c\n'}
+[121.582582] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.h\n'}
+[121.582686] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__functions.h\n'}
+[121.582793] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c\n'}
+[121.582971] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[121.583068] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[121.583183] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[121.583281] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[121.583381] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[121.583486] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[121.583624] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.c\n'}
+[121.583736] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[121.583831] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h\n'}
+[121.583927] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.c\n'}
+[121.584041] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.c\n'}
+[121.584152] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[121.584258] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[121.584364] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__functions.c\n'}
+[121.584478] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[121.584579] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[121.584678] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.c\n'}
+[121.584789] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[121.584895] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[121.584995] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[121.585105] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.c\n'}
+[121.585221] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.c\n'}
+[121.585333] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[121.585442] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[121.585552] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.c\n'}
+[121.585666] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[121.585766] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[121.585875] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.c\n'}
+[121.585987] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.h\n'}
+[121.586085] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h\n'}
+[121.586186] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[121.586285] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[121.586385] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[121.586487] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h\n'}
+[121.586582] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h\n'}
+[121.586676] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h\n'}
+[121.586770] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h\n'}
+[121.586862] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[121.586937] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[121.587139] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[121.587277] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[121.587467] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[121.587949] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""\n'}
+[121.588038] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.588139] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.588189] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.588241] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588320] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588398] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588478] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588557] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588652] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588756] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588852] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[121.588962] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[121.589067] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[121.589180] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[121.589290] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[121.589370] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[121.589487] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[121.589954] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[121.590034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.590107] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.590187] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp\n'}
+[121.590272] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.hpp\n'}
+[121.590351] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[121.590418] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp\n'}
+[121.590504] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp\n'}
+[121.590601] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[121.590706] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp\n'}
+[121.590798] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.590879] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[121.590964] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[121.591076] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[121.591188] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[121.591297] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[121.591401] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[121.591511] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[121.591828] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[121.591929] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[121.592047] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[121.592155] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[121.592267] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.hpp\n'}
+[121.592384] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[121.592497] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[121.592605] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[121.592720] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__traits.hpp\n'}
+[121.592837] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[121.592947] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[121.593061] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[121.593174] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[121.593286] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[121.593402] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[121.593517] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[121.593623] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[121.593733] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__builder.hpp\n'}
+[121.593866] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[121.594010] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[121.594117] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[121.594219] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[121.594328] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[121.594438] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[121.594540] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[121.594652] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[121.594763] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[121.594861] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp\n'}
+[121.594957] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp\n'}
+[121.595051] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp\n'}
+[121.595190] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.595273] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.595340] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.595389] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.595454] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.595552] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.595681] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.595788] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/dds_fastrtps\n'}
+[121.595927] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596040] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596150] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596268] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596349] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596457] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596574] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.596678] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[121.596748] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[121.596869] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[121.597358] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[121.597430] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.597509] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.597577] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.597625] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[121.597701] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.c\n'}
+[121.597766] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[121.597873] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[121.598018] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.c\n'}
+[121.598133] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.c\n'}
+[121.598249] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.c\n'}
+[121.598358] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.c\n'}
+[121.598469] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[121.598573] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.c\n'}
+[121.598688] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c\n'}
+[121.598808] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[121.598911] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[121.599016] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.c\n'}
+[121.599129] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c\n'}
+[121.599242] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.c\n'}
+[121.599360] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[121.599465] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.c\n'}
+[121.599770] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[121.599874] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[121.599978] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[121.600088] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[121.600186] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[121.600252] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[121.600416] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[121.600815] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""\n'}
+[121.600918] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[121.601180] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""\n'}
+[121.601258] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[121.601336] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[121.601385] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[121.601446] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.cpp\n'}
+[121.601503] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.cpp\n'}
+[121.601566] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.601647] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.cpp\n'}
+[121.601761] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.cpp\n'}
+[121.601871] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.601971] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.602072] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.cpp\n'}
+[121.602196] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.cpp\n'}
+[121.602307] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.602411] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.602512] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.602615] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp\n'}
+[121.602739] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.602840] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp\n'}
+[121.602950] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.603051] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.603150] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.cpp\n'}
+[121.603261] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.603364] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.603468] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp\n'}
+[121.603656] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.cpp\n'}
+[121.603807] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[121.604218] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[121.604320] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[121.604641] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""\n'}
+[121.604714] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[121.604850] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[121.604955] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info\n'}
+[121.605078] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/PKG-INFO\n'}
+[121.605156] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/SOURCES.txt\n'}
+[121.605236] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/dependency_links.txt\n'}
+[121.605330] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/top_level.txt\n'}
+[121.605452] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox\n'}
+[121.605525] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\n'}
+[121.605657] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[121.605856] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.606015] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.606190] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv\n'}
+[121.606264] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py\n'}
+[121.606366] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[121.606462] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_reset.py\n'}
+[121.606558] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c\n'}
+[121.606725] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[121.606812] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[121.606884] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[121.606982] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[121.607081] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_reset_s.c\n'}
+[121.607176] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c\n'}
+[121.607272] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py\n'}
+[121.607380] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[121.607475] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py\n'}
+[121.607830] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[121.608007] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[121.608176] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py\n'}
+[121.608341] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[121.608521] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[121.608684] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py\n'}
+[121.608865] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[121.608961] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[121.609075] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[121.609258] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[121.609417] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py\n'}
+[121.609554] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.609703] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c\n'}
+[121.609935] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[121.649554] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...\n"}
+[121.649685] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py'...\n"}
+[121.649741] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...\n"}
+[121.649793] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py'...\n"}
+[121.649843] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py'...\n"}
+[121.649892] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py'...\n"}
+[121.649940] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py'...\n"}
+[121.649994] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py'...\n"}
+[121.650047] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py'...\n"}
+[121.650095] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py'...\n"}
+[121.650141] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py'...\n"}
+[121.650188] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_reset.py'...\n"}
+[121.650235] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py'...\n"}
+[121.650282] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py'...\n"}
+[121.650329] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py'...\n"}
+[121.653536] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.653915] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[121.653973] (-) TimerEvent: {}
+[121.654152] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.654571] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[121.654795] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[121.655183] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[121.655311] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so\n'}
+[121.655726] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so" to ""\n'}
+[121.655897] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[121.656113] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/Reset.idl\n'}
+[121.656188] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[121.656302] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[121.656379] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[121.656507] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[121.656623] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[121.656723] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[121.656836] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[121.656953] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[121.657070] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[121.657219] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[121.657362] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[121.657474] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[121.657607] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Reset.srv\n'}
+[121.657747] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Reset_Request.msg\n'}
+[121.657888] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Reset_Response.msg\n'}
+[121.658006] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[121.658123] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[121.658245] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[121.658366] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[121.658491] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[121.658606] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[121.658768] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[121.658897] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[121.659043] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[121.659175] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[121.659295] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[121.659417] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[121.659564] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[121.659701] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[121.659818] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[121.659966] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[121.660097] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[121.660242] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[121.660372] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[121.660529] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[121.660715] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[121.660847] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[121.660960] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[121.661079] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[121.661199] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[121.661317] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[121.661444] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[121.661569] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml\n'}
+[121.661705] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml\n'}
+[121.661897] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[121.662948] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node" to ""\n'}
+[121.663075] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[121.664353] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node" to ""\n'}
+[121.664438] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[121.665468] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node" to ""\n'}
+[121.665544] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node\n'}
+[121.666580] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node" to ""\n'}
+[121.666727] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node\n'}
+[121.667778] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node" to ""\n'}
+[121.667914] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[121.669342] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic" to ""\n'}
+[121.669516] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[121.673797] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libtoolbox_common.so" to ""\n'}
+[121.673947] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[121.675663] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so" to ""\n'}
+[121.675832] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[121.677060] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libceres_solver_plugin.so" to ""\n'}
+[121.677137] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[121.678223] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so" to ""\n'}
+[121.678360] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[121.679533] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so" to ""\n'}
+[121.679628] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[121.681855] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so" to ""\n'}
+[121.682004] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[121.683060] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so" to ""\n'}
+[121.683212] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so\n'}
+[121.685316] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so" to ""\n'}
+[121.685473] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[121.689290] (slam_toolbox) StdoutLine: {'line': b'-- Set runtime path of "/home/asis/hokuyo_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so" to ""\n'}
+[121.689503] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[121.689734] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include\n'}
+[121.689915] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox\n'}
+[121.689976] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[121.690125] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[121.690235] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[121.690387] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[121.690487] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[121.690543] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[121.690628] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[121.690720] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[121.690805] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[121.690904] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[121.691013] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[121.691116] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[121.691224] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[121.691332] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[121.691437] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[121.691542] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/experimental\n'}
+[121.691681] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp\n'}
+[121.691812] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[121.692001] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch\n'}
+[121.692108] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[121.692245] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[121.692407] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[121.692565] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[121.692676] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[121.692770] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config\n'}
+[121.692854] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[121.692955] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[121.693061] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[121.693165] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[121.693275] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[121.693381] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[121.693550] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/solver_plugins.xml\n'}
+[121.693660] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[121.693853] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[121.694053] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[121.694205] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[121.694378] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[121.694565] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[121.694763] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[121.694897] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[121.695079] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[121.695257] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[121.695425] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[121.695623] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[121.695832] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[121.696004] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[121.696199] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[121.696434] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[121.696629] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[121.696842] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[121.697006] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[121.697150] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[121.697318] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[121.697481] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[121.697677] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[121.697874] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[121.698078] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[121.698265] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[121.698466] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[121.698658] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[121.698861] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[121.699035] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[121.699213] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake\n'}
+[121.699377] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake\n'}
+[121.699637] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[121.699810] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[121.700001] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox\n'}
+[121.700136] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[121.700252] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[121.700401] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[121.700543] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[121.700705] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[121.700880] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[121.701011] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[121.701150] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[121.701259] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[121.701400] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[121.701643] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/asis/hokuyo_ws/install/slam_toolbox/include/\n'}
+[121.701714] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk\n'}
+[121.701788] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[121.701891] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[121.702174] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[121.702281] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[121.702448] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[121.702624] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[121.702727] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/asis/hokuyo_ws/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[121.705186] (slam_toolbox) CommandEnded: {'returncode': 0}
+[121.754089] (-) TimerEvent: {}
+[121.854302] (-) TimerEvent: {}
+[121.954551] (-) TimerEvent: {}
+[121.994070] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[121.994709] (-) EventReactorShutdown: {}
