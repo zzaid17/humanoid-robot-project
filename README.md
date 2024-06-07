@@ -4,12 +4,16 @@
 
 ``` rm -rf src/urg_node2 ```\
 ``` rm -rf src/slam_toolbox ``` \
+``` rm -rf src/navigation2 ```\
+``` rm -rf src/BehaviorTree.CPP ```\
 ``` rm -rf build/ install/ log/ ```
 
 <h2>Reinstall packages from src directory</h2>
 
 ``` git clone https://github.com/Hokuyo-aut/urg_node2 ```\
-``` git clone https://github.com/SteveMacenski/slam_toolbox ```
+``` git clone https://github.com/SteveMacenski/slam_toolbox ```\
+``` git clone https://github.com/ros-navigation/navigation2/tree/humble ```\
+``` git clone https://github.com/BehaviorTree/BehaviorTree.CPP.git -b v3.8 ```
 
 <h2>Install dependencies</h2>
 
