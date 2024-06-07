@@ -1,4 +1,1 @@
-# trigger pause toggle
-
----
-bool status
+/home/asis/hokuyo_ws/src/slam_toolbox/srvs/Pause.srv

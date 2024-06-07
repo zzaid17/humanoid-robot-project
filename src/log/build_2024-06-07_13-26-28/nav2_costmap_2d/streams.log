@@ -1,0 +1,256 @@
+[0.138s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d
+[0.318s] -- The C compiler identification is GNU 11.4.0
+[0.452s] -- The CXX compiler identification is GNU 11.4.0
+[0.465s] -- Detecting C compiler ABI info
+[0.918s] -- Detecting C compiler ABI info - done
+[0.942s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.943s] -- Detecting C compile features
+[0.943s] -- Detecting C compile features - done
+[0.947s] -- Detecting CXX compiler ABI info
+[1.393s] -- Detecting CXX compiler ABI info - done
+[1.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.406s] -- Detecting CXX compile features
+[1.407s] -- Detecting CXX compile features - done
+[1.422s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.991s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.332s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.511s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.867s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[3.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.026s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.268s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.311s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.422s] -- Looking for pthread.h
+[3.692s] -- Looking for pthread.h - found
+[3.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.931s] -- Found Threads: TRUE  
+[4.617s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[5.141s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[5.150s] -- Found nav2_common: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake)
+[5.152s] -- Found nav2_msgs: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_msgs/share/nav2_msgs/cmake)
+[5.662s] -- Found nav2_util: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_util/share/nav2_util/cmake)
+[6.388s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.389s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.783s] -- Found nav2_voxel_grid: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[6.796s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[6.826s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.859s] -- Found tf2_sensor_msgs: 0.25.6 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[6.901s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.178s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[7.183s] -- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.3") 
+[7.183s] -- Setting build type to Release as none was specified.
+[13.241s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.312s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.340s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.354s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.918s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/asis/hokuyo_ws/src/navigation2/nav2_costmap_2d/include>
+[15.918s] -- Configured cppcheck exclude dirs and/or files: 
+[15.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.921s] -- Added test 'lint_cmake' to check CMake code style
+[15.923s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.928s] -- Added test 'uncrustify' to check C / C++ code style
+[15.928s] -- Configured uncrustify additional arguments: 
+[15.930s] -- Added test 'xmllint' to check XML markup files
+[15.932s] -- Configuring done
+[17.030s] -- Generating done
+[17.038s] -- Build files have been written to: /home/asis/hokuyo_ws/src/build/nav2_costmap_2d
+[17.075s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d
+[17.078s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_costmap_2d -- -j8 -l8
+[17.153s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[17.769s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[19.781s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[20.795s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[20.938s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[21.988s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[23.048s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[44.980s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[44.981s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[46.021s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[47.086s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[47.108s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[59.325s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o[0m
+[63.993s] [ 17%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[64.365s] [ 17%] Built target nav2_costmap_2d_core
+[64.387s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[64.394s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[65.305s] [ 20%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[65.342s] [ 20%] Built target gtest_main
+[65.366s] [ 21%] [32mBuilding CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o[0m
+[71.360s] [ 23%] [32m[1mLinking CXX shared library liborder_layer.so[0m
+[71.971s] [ 23%] Built target order_layer
+[76.792s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[76.834s] [ 24%] Built target gtest
+[76.858s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[79.881s] [ 26%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[80.990s] [ 28%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[82.061s] [ 29%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[83.146s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[87.016s] [ 31%] [32m[1mLinking CXX executable array_parser_test[0m
+[87.830s] [ 31%] Built target array_parser_test
+[91.332s] [ 32%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[92.242s] [ 32%] Built target costmap_convesion_test
+[94.690s] [ 34%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[95.349s] [ 34%] Built target collision_footprint_test
+[98.772s] [ 35%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[99.217s] [ 35%] Built target nav2_costmap_2d_cloud
+[104.504s] [ 36%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[104.764s] [ 36%] Built target nav2_costmap_2d_markers
+[104.787s] [ 37%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o[0m
+[110.154s] [ 39%] [32m[1mLinking CXX executable costmap_filter_service_test[0m
+[110.420s] [ 39%] Built target costmap_filter_service_test
+[110.442s] [ 40%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[114.458s] [ 41%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[115.481s] [ 42%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[116.281s] [ 43%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[116.502s] [ 45%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o[0m
+[116.749s] [ 45%] Built target costmap_bresenham_2d
+[116.799s] [ 46%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[120.410s] [ 47%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[121.291s] [ 47%] Built target dyn_params_tests
+[122.421s] [ 48%] [32m[1mLinking CXX executable copy_window_test[0m
+[122.913s] [ 48%] Built target copy_window_test
+[124.280s] [ 50%] [32m[1mLinking CXX executable costmap_filter_test[0m
+[124.584s] [ 50%] Built target costmap_filter_test
+[124.973s] [ 51%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[125.304s] [ 51%] Built target declare_parameter_test
+[125.327s] [ 52%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[131.188s] [ 53%] [32m[1mLinking CXX executable plugin_api_order[0m
+[131.615s] [ 53%] Built target plugin_api_order
+[131.649s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[131.650s] [ 56%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[131.652s] [ 57%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[131.661s] [ 58%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[131.666s] [ 59%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[131.669s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[131.706s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[131.707s] [ 63%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[154.968s] [ 64%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[155.801s] [ 64%] Built target nav2_costmap_2d_client
+[160.113s] [ 65%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[160.661s] [ 67%] [32m[1mLinking CXX shared library libfilters.so[0m
+[161.186s] [ 67%] Built target filters
+[164.783s] [ 68%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[184.282s] [ 69%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[196.806s] [ 70%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[203.442s] [ 71%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[238.940s] [ 73%] [32m[1mLinking CXX shared library liblayers.so[0m
+[241.375s] [ 73%] Built target layers
+[241.518s] [ 74%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[254.493s] [ 75%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[254.497s] [ 76%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[255.545s] [ 78%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[255.558s] [ 79%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[256.677s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[256.693s] [ 81%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[257.813s] [ 82%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[264.874s] [ 84%] [32m[1mLinking CXX executable binary_filter_test[0m
+[266.869s] [ 84%] Built target binary_filter_test
+[273.522s] [ 85%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[274.577s] [ 85%] Built target footprint_tests_exec
+[274.614s] [ 86%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[276.006s] [ 86%] Built target nav2_costmap_2d
+[277.929s] [ 87%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[282.438s] [ 89%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[282.583s] [ 90%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[284.339s] [ 90%] Built target inflation_tests_exec
+[284.759s] [ 91%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[286.183s] [ 91%] Built target test_collision_checker_exec
+[286.313s] [ 92%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[286.843s] [ 92%] Built target keepout_filter_test
+[288.203s] [ 93%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[288.657s] [ 93%] Built target denoise_layer_test
+[291.838s] [ 95%] [32m[1mLinking CXX executable speed_filter_test[0m
+[292.227s] [ 95%] Built target speed_filter_test
+[292.249s] [ 96%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[298.990s] [ 97%] [32m[1mLinking CXX executable range_tests_exec[0m
+[299.313s] [ 97%] Built target range_tests_exec
+[299.336s] [ 98%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[308.009s] [100%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[308.334s] [100%] Built target obstacle_tests_exec
+[308.348s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_costmap_2d -- -j8 -l8
+[308.456s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_costmap_2d
+[308.464s] -- Install configuration: "Release"
+[308.464s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/liblayers.so
+[308.468s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[308.468s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libfilters.so
+[308.471s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[308.471s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[308.473s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[308.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[308.475s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[308.475s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[308.477s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[308.477s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[308.478s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[308.478s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[308.479s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[308.479s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[308.479s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d
+[308.479s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[308.480s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[308.481s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[308.482s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[308.483s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[308.484s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[308.485s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[308.485s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[308.485s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[308.485s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[308.485s] -- Up-to-date: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[308.485s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[308.486s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[308.486s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[308.486s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[308.486s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[308.486s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[308.487s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[308.487s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[308.487s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[308.487s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[308.487s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[308.488s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[308.488s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[308.488s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[308.488s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[308.489s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[308.489s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[308.489s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[308.489s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[308.489s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[308.490s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/liborder_layer.so
+[308.491s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib/liborder_layer.so" to ""
+[308.493s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_map_server/lib:/home/asis/hokuyo_ws/src/install/nav2_lifecycle_manager/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_costmap_2d

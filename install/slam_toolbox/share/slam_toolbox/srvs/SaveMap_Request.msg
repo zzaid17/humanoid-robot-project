@@ -1,1 +1,1 @@
-std_msgs/String name
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/SaveMap_Request.msg

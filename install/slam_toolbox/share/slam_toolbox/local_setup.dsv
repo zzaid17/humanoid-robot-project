@@ -1,4 +1,1 @@
-source;share/slam_toolbox/environment/ament_prefix_path.sh
-source;share/slam_toolbox/environment/library_path.sh
-source;share/slam_toolbox/environment/path.sh
-source;share/slam_toolbox/environment/pythonpath.sh
+/home/asis/hokuyo_ws/build/slam_toolbox/ament_cmake_environment_hooks/local_setup.dsv

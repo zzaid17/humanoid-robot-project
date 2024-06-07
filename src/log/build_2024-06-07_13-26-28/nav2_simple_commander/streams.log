@@ -1,0 +1,88 @@
+[0.575s] Invoking command in '/home/asis/hokuyo_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/build/nav2_simple_commander/prefix_override:/home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_simple_commander build --build-base /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build install --record /home/asis/hokuyo_ws/src/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[0.788s] running egg_info
+[0.788s] creating ../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[0.789s] writing ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[0.790s] writing manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.791s] reading manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.792s] writing manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.792s] running build
+[0.792s] running build_py
+[0.793s] creating /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build
+[0.793s] creating /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib
+[0.793s] creating /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.793s] copying nav2_simple_commander/demo_inspection.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.793s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.793s] copying nav2_simple_commander/line_iterator.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.793s] copying nav2_simple_commander/demo_picking.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.793s] copying nav2_simple_commander/robot_navigator.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/demo_recoveries.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/__init__.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/example_follow_path.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/costmap_2d.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] copying nav2_simple_commander/demo_security.py -> /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.794s] running install
+[0.795s] running install_lib
+[0.795s] creating /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.795s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.795s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.796s] copying /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.797s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[0.797s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[0.798s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[0.799s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[0.799s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[0.802s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[0.803s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[0.803s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[0.803s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[0.804s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[0.804s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[0.805s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[0.805s] byte-compiling /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[0.806s] running install_data
+[0.806s] creating /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/ament_index
+[0.806s] creating /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/ament_index/resource_index
+[0.806s] creating /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.806s] copying resource/nav2_simple_commander -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.806s] copying package.xml -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.806s] copying launch/nav_to_pose_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.806s] copying launch/assisted_teleop_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.806s] copying launch/waypoint_follower_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.806s] copying launch/nav_through_poses_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.806s] copying launch/inspection_demo_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] copying launch/warehouse.world -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] copying launch/recoveries_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] copying launch/follow_path_example_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] copying launch/security_demo_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] copying launch/picking_demo_launch.py -> /home/asis/hokuyo_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[0.807s] running install_egg_info
+[0.808s] Copying ../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[0.809s] running install_scripts
+[0.826s] Installing demo_inspection script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing demo_picking script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing demo_recoveries script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing demo_security script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing example_assisted_teleop script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing example_follow_path script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing example_nav_through_poses script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing example_nav_to_pose script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.827s] Installing example_waypoint_follower script to /home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.828s] writing list of installed files to '/home/asis/hokuyo_ws/src/build/nav2_simple_commander/install.log'
+[0.850s] Invoked command in '/home/asis/hokuyo_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/build/nav2_simple_commander/prefix_override:/home/asis/hokuyo_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_simple_commander build --build-base /home/asis/hokuyo_ws/src/build/nav2_simple_commander/build install --record /home/asis/hokuyo_ws/src/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

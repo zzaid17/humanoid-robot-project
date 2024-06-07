@@ -1,2 +1,1 @@
-
-
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/Clear_Request.msg

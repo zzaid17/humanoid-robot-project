@@ -1,5 +1,1 @@
-slam_toolbox::AsynchronousSlamToolbox;lib/libasync_slam_toolbox.so
-slam_toolbox::SynchronousSlamToolbox;lib/libsync_slam_toolbox.so
-slam_toolbox::LocalizationSlamToolbox;lib/liblocalization_slam_toolbox.so
-slam_toolbox::LifelongSlamToolbox;lib/liblifelong_slam_toolbox.so
-slam_toolbox::MapAndLocalizationSlamToolbox;lib/libmap_and_localization_slam_toolbox.so
+/home/asis/hokuyo_ws/build/slam_toolbox/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/slam_toolbox

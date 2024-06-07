@@ -1,0 +1,99 @@
+[0.035s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.416s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.925s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.103s] -- Found nav2_common: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake)
+[1.103s] -- Found nav2_core: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_core/share/nav2_core/cmake)
+[1.219s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.229s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.246s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.445s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.450s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.629s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.674s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.760s] -- Looking for pthread.h
+[1.889s] -- Looking for pthread.h - found
+[1.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.032s] -- Found Threads: TRUE  
+[4.209s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.209s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.007s] -- Setting build type to Release as none was specified.
+[10.791s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.940s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.751s] -- Configured cppcheck include dirs: /home/asis/hokuyo_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[14.751s] -- Configured cppcheck exclude dirs and/or files: 
+[14.754s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.754s] -- Configured cpplint exclude dirs and/or files: 
+[14.756s] -- Added test 'lint_cmake' to check CMake code style
+[14.760s] -- Added test 'uncrustify' to check C / C++ code style
+[14.760s] -- Configured uncrustify additional arguments: 
+[14.762s] -- Added test 'xmllint' to check XML markup files
+[14.792s] -- Configuring done
+[15.033s] -- Generating done
+[15.037s] -- Build files have been written to: /home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller
+[15.065s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller
+[15.066s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[18.634s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[29.938s] [ 16%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[30.683s] [ 16%] Built target nav2_regulated_pure_pursuit_controller
+[30.714s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[42.451s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[42.532s] [ 33%] Built target gtest
+[42.564s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[44.092s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[44.143s] [ 50%] Built target gtest_main
+[44.178s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[59.144s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/path_utils/path_utils.cpp.o[0m
+[64.047s] [ 75%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[64.867s] [ 75%] Built target test_regulated_pp
+[64.898s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/test_path_utils.cpp.o[0m
+[67.769s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/path_utils.cpp.o[0m
+[74.315s] [100%] [32m[1mLinking CXX executable test_path_utils[0m
+[74.744s] [100%] Built target test_path_utils
+[74.808s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[75.201s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller
+[79.471s] -- Install configuration: "Release"
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[79.472s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so" to ""
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/include/
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[79.472s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[79.473s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[79.474s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[79.484s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_regulated_pure_pursuit_controller

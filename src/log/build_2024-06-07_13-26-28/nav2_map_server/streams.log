@@ -1,0 +1,160 @@
+[0.030s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_map_server
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.555s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.871s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.002s] -- Found nav2_common: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake)
+[1.002s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.069s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.078s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.091s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.235s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.238s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.348s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.391s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.502s] -- Looking for pthread.h
+[1.633s] -- Looking for pthread.h - found
+[1.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.738s] -- Found Threads: TRUE  
+[2.036s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.114s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.239s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.464s] -- Found nav2_msgs: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.841s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.847s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[2.860s] -- Found nav2_util: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_util/share/nav2_util/cmake)
+[3.262s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.264s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.264s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.597s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[3.598s] -- Setting build type to Release as none was specified.
+[11.274s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.522s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.536s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.552s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.578s] -- Configured cppcheck include dirs: /home/asis/hokuyo_ws/src/navigation2/nav2_map_server/include
+[11.578s] -- Configured cppcheck exclude dirs and/or files: 
+[11.583s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.583s] -- Configured cpplint exclude dirs and/or files: 
+[11.585s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.586s] -- Added test 'lint_cmake' to check CMake code style
+[11.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.594s] -- Added test 'uncrustify' to check C / C++ code style
+[11.595s] -- Configured uncrustify additional arguments: 
+[11.596s] -- Added test 'xmllint' to check XML markup files
+[11.609s] -- Configuring done
+[12.464s] -- Generating done
+[12.488s] -- Build files have been written to: /home/asis/hokuyo_ws/src/build/nav2_map_server
+[12.536s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_map_server
+[12.537s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_map_server -- -j8 -l8
+[12.878s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[13.870s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[24.563s] [  8%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[24.925s] [  8%] Built target map_io
+[24.956s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[38.074s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[38.223s] [ 13%] Built target gtest
+[38.355s] [ 16%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[48.652s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[48.846s] [ 22%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[49.292s] [ 22%] Built target test_map_saver_publisher
+[49.335s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[60.737s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[67.074s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[77.770s] [ 33%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[78.075s] [ 33%] Built target map_server_core
+[78.095s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[78.096s] [ 38%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[78.977s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[79.011s] [ 41%] Built target gtest_main
+[79.033s] [ 44%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[81.055s] [ 47%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[81.150s] [ 50%] [32m[1mLinking CXX executable map_server[0m
+[81.502s] [ 50%] Built target map_server
+[81.514s] [ 52%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[81.527s] [ 55%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[81.648s] [ 58%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[83.360s] [ 61%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[83.864s] [ 61%] Built target costmap_filter_info_server
+[83.899s] [ 63%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[83.903s] [ 66%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[89.460s] [ 69%] [32m[1mLinking CXX executable test_map_server_node[0m
+[89.717s] [ 69%] Built target test_map_server_node
+[89.739s] [ 72%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[90.309s] [ 75%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[90.765s] [ 75%] Built target test_map_saver_node
+[90.796s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[90.796s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[93.638s] [ 83%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[93.880s] [ 83%] Built target test_map_saver_cli
+[93.914s] [ 88%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[93.914s] [ 88%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[98.737s] [ 91%] [32m[1mLinking CXX executable map_saver_cli[0m
+[98.904s] [ 94%] [32m[1mLinking CXX executable map_saver_server[0m
+[99.219s] [ 94%] Built target map_saver_cli
+[99.418s] [ 94%] Built target map_saver_server
+[99.714s] [ 97%] [32m[1mLinking CXX executable test_map_io[0m
+[100.081s] [ 97%] Built target test_map_io
+[102.382s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[102.867s] [100%] Built target test_costmap_filter_info_server
+[102.891s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_map_server -- -j8 -l8
+[102.991s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_map_server
+[103.008s] -- Install configuration: "Release"
+[103.008s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/libmap_server_core.so
+[103.008s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[103.008s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/libmap_io.so
+[103.008s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/libmap_io.so" to ""
+[103.009s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_server
+[103.009s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[103.009s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[103.010s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[103.010s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[103.011s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[103.011s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[103.012s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include/
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[103.012s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[103.013s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[103.013s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/launch
+[103.013s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[103.016s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[103.019s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[103.022s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[103.027s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[103.027s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[103.029s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[103.031s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[103.033s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[103.035s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[103.037s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[103.040s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[103.042s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[103.044s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/package.dsv
+[103.046s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[103.049s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[103.052s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.055s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[103.057s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.067s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[103.068s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[103.068s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_map_server/share/nav2_map_server/package.xml
+[103.072s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_map_server

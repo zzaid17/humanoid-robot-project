@@ -1,0 +1,4 @@
+[33mCMake Warning at CMakeLists.txt:164 (message):
+  NCurses NOT found.  Skipping the build of manual selector node.
+
+[0m

@@ -1,1 +1,1 @@
-string filename
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/SerializePoseGraph_Request.msg

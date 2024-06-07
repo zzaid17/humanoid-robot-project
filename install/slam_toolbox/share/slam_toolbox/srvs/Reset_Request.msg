@@ -1,3 +1,1 @@
-# Set this to 'true' to pause new measurements immediately after reset.
-# Note: This is a set behaviour and not a toggle behaviour, contrary to Pause.srv service.
-bool pause_new_measurements false
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/Reset_Request.msg

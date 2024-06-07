@@ -1,0 +1,64 @@
+[0.020s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_common
+[0.038s] -- Found ament_cmake_core: 1.3.9 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.238s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.326s] -- Found ament_cmake_python: 1.3.9 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.505s] -- Configuring done
+[0.509s] -- Generating done
+[0.510s] -- Build files have been written to: /home/asis/hokuyo_ws/src/build/nav2_common
+[0.513s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_common
+[0.515s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_common -- -j8 -l8
+[0.582s] Built target ament_cmake_python_copy_nav2_common
+[0.977s] running egg_info
+[0.978s] creating nav2_common.egg-info
+[0.978s] writing nav2_common.egg-info/PKG-INFO
+[0.978s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.979s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.979s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.982s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.015s] Built target ament_cmake_python_build_nav2_common_egg
+[1.027s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_common -- -j8 -l8
+[1.065s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_common
+[1.073s] -- Install configuration: ""
+[1.073s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.15-py3.10.egg-info
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.15-py3.10.egg-info/PKG-INFO
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.15-py3.10.egg-info/SOURCES.txt
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.15-py3.10.egg-info/dependency_links.txt
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.15-py3.10.egg-info/top_level.txt
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[1.074s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[1.075s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[1.123s] Listing '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[1.124s] Listing '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[1.124s] Compiling '/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[1.145s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.145s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.145s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.145s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.146s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/path.sh
+[1.146s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.146s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/local_setup.bash
+[1.146s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/local_setup.sh
+[1.146s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.147s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.147s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/package.dsv
+[1.147s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.148s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.148s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.148s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.149s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/package.xml
+[1.149s] -- Up-to-date: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake
+[1.149s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.152s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_common

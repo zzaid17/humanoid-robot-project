@@ -1,0 +1,99 @@
+[0.038s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_theta_star_planner -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_theta_star_planner
+[6.262s] -- The C compiler identification is GNU 11.4.0
+[6.262s] -- The CXX compiler identification is GNU 11.4.0
+[6.262s] -- Detecting C compiler ABI info
+[6.262s] -- Detecting C compiler ABI info - done
+[6.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.263s] -- Detecting C compile features
+[6.263s] -- Detecting C compile features - done
+[6.263s] -- Detecting CXX compiler ABI info
+[6.263s] -- Detecting CXX compiler ABI info - done
+[6.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.263s] -- Detecting CXX compile features
+[6.263s] -- Detecting CXX compile features - done
+[6.263s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.263s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.263s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[6.263s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.263s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.264s] -- Found nav2_common: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_common/share/nav2_common/cmake)
+[6.264s] -- Found nav2_core: 1.1.15 (/home/asis/hokuyo_ws/src/install/nav2_core/share/nav2_core/cmake)
+[6.264s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.264s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.264s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.264s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.264s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.264s] -- Looking for pthread.h
+[6.264s] -- Looking for pthread.h - found
+[6.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.265s] -- Found Threads: TRUE  
+[6.265s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.265s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.654s] -- Setting build type to Release as none was specified.
+[11.166s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.303s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.766s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.766s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.766s] -- Configured cppcheck include dirs: /home/asis/hokuyo_ws/src/navigation2/nav2_theta_star_planner/include
+[14.766s] -- Configured cppcheck exclude dirs and/or files: 
+[14.766s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.766s] -- Configured cpplint exclude dirs and/or files: 
+[14.767s] -- Added test 'lint_cmake' to check CMake code style
+[14.770s] -- Added test 'uncrustify' to check C / C++ code style
+[14.770s] -- Configured uncrustify additional arguments: 
+[14.771s] -- Added test 'xmllint' to check XML markup files
+[14.790s] -- Configuring done
+[14.998s] -- Generating done
+[15.002s] -- Build files have been written to: /home/asis/hokuyo_ws/src/build/nav2_theta_star_planner
+[15.027s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/asis/hokuyo_ws/src/navigation2/nav2_theta_star_planner -DCMAKE_INSTALL_PREFIX=/home/asis/hokuyo_ws/src/install/nav2_theta_star_planner
+[15.038s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_theta_star_planner -- -j8 -l8
+[15.126s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
+[24.920s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
+[34.628s] [ 33%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
+[35.284s] [ 33%] Built target nav2_theta_star_planner
+[35.318s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[48.208s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[48.269s] [ 55%] Built target gtest
+[48.317s] [ 66%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[49.627s] [ 77%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[49.678s] [ 77%] Built target gtest_main
+[49.716s] [ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
+[61.885s] [100%] [32m[1mLinking CXX executable test_theta_star[0m
+[62.764s] [100%] Built target test_theta_star
+[62.820s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asis/hokuyo_ws/src/build/nav2_theta_star_planner -- -j8 -l8
+[63.039s] Invoking command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_theta_star_planner
+[74.642s] -- Install configuration: "Release"
+[74.642s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[74.643s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
+[74.645s] -- Set runtime path of "/home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so" to ""
+[74.645s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/include/
+[74.645s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/include//nav2_theta_star_planner
+[74.645s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star.hpp
+[74.645s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star_planner.hpp
+[74.646s] -- Up-to-date: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.sh
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.dsv
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.sh
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.dsv
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.sh
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.dsv
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.bash
+[74.646s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.sh
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.zsh
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.dsv
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.dsv
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/ament_index/resource_index/packages/nav2_theta_star_planner
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig.cmake
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig-version.cmake
+[74.647s] -- Installing: /home/asis/hokuyo_ws/src/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.xml
+[74.656s] Invoked command in '/home/asis/hokuyo_ws/src/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asis/hokuyo_ws/src/install/nav2_core:/home/asis/hokuyo_ws/src/install/nav2_costmap_2d:/home/asis/hokuyo_ws/src/install/nav2_util:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid:/home/asis/hokuyo_ws/src/install/nav2_msgs:/home/asis/hokuyo_ws/src/install/nav2_common:/home/asis/hokuyo_ws/install/urg_node2:/home/asis/hokuyo_ws/install/slam_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/asis/hokuyo_ws/src/install/nav2_costmap_2d/lib:/home/asis/hokuyo_ws/src/install/nav2_util/lib:/home/asis/hokuyo_ws/src/install/nav2_voxel_grid/lib:/home/asis/hokuyo_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asis/hokuyo_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/asis/hokuyo_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asis/hokuyo_ws/src/build/nav2_theta_star_planner

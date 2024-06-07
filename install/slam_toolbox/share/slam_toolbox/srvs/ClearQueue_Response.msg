@@ -1,2 +1,1 @@
-
-bool status
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/ClearQueue_Response.msg

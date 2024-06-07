@@ -1,6 +1,1 @@
-
-# Result code defintions
-uint8 RESULT_SUCCESS=0
-uint8 RESULT_FAILED_TO_WRITE_FILE=255
-
-uint8 result
+/home/asis/hokuyo_ws/build/slam_toolbox/rosidl_cmake/srvs/SerializePoseGraph_Response.msg
