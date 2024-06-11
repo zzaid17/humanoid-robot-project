@@ -1,4 +1,4 @@
-<h1>In case of missing dependencies, incorrect file paths, or other issues, go through the following steps when porting between PCs or to the robot.</h1>
+<h1>Setup:</h1>
 
 <h2>Install dependencies</h2>
 
