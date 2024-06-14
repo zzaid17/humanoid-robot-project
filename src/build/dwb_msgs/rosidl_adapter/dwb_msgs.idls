@@ -1,9 +1,0 @@
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
-/home/asis/hokuyo_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl
