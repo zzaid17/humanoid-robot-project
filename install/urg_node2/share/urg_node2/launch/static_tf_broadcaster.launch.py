@@ -1,1 +1,0 @@
-/home/asis/hokuyo_ws/src/urg_node2/launch/static_tf_broadcaster.launch.py
