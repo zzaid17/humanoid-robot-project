@@ -27,14 +27,4 @@ def generate_launch_description():
                        '--frame-id', 'map', '--child-frame-id', 'odom'],
             name='map_to_odom'
         ),
-        Node(
-            package='urg_node2',
-            executable='urg_node2_node',
-            name='urg_node2'
-        ),
-        Node(
-            package='slam_gmapping',
-            executable='slam_gmapping',
-            name='slam_gmapping'
-        )
     ])
