@@ -4,9 +4,6 @@
 [submodule "src/slam_gmapping"]
 	path = src/slam_gmapping
 	url = https://github.com/zzaid17/slam_gmapping
-[submodule "src/robot_localization"]
-	path = src/robot_localization
-	url = https://github.com/zzaid17/robot_localization
-[submodule "src/ros2_mpu6050_driver"]
-	path = src/ros2_mpu6050_driver
+[submodule "src/src/ros2_mpu6050_driver"]
+	path = src/src/ros2_mpu6050_driver
 	url = https://github.com/hiwad-aziz/ros2_mpu6050_driver
