@@ -4,9 +4,6 @@
 [submodule "src/slam_gmapping"]
 	path = src/slam_gmapping
 	url = https://github.com/zzaid17/slam_gmapping
-[submodule "src/serial"]
-	path = src/serial
-	url = https://github.com/wjwwood/serial
 [submodule "src/transport_drivers"]
 	path = src/transport_drivers
 	url = https://github.com/ros-drivers/transport_drivers
