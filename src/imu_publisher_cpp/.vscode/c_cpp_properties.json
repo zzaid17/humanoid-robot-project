@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/asis/hokuyo_ws/install/ros2_mpu6050/include/**",
+        "/home/asis/hokuyo_ws/install/openslam_gmapping/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/asis/hokuyo_ws/src/imu_publisher_cpp/include/**",
+        "/home/asis/hokuyo_ws/src/ros2_mpu6050/include/**",
+        "/home/asis/hokuyo_ws/src/s_tf_pub/include/**",
+        "/home/asis/hokuyo_ws/src/slam_gmapping/openslam_gmapping/include/**",
+        "/home/asis/hokuyo_ws/src/slam_gmapping/slam_gmapping/include/**",
+        "/home/asis/hokuyo_ws/src/urg_node2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
