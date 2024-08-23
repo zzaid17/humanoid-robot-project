@@ -1,3 +1,4 @@
+
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
@@ -28,7 +29,7 @@ void loop() {
   Serial.print(a.acceleration.z); Serial.print(" ");
   Serial.print(g.gyro.x); Serial.print(" ");
   Serial.print(g.gyro.x); Serial.print(" ");
-  Serial.println(g.gyro.z);
+  Serial.print(g.gyro.z); Serial.print("\n");
 
   delay(1000);
 }
