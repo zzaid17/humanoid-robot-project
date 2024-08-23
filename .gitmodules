@@ -7,3 +7,7 @@
 [submodule "src/transport_drivers"]
 	path = src/transport_drivers
 	url = https://github.com/ros-drivers/transport_drivers
+[submodule "src/robot_localization"]
+	path = src/robot_localization
+	url = https://github.com/cra-ros-pkg/robot_localization
+	branch = humble-devel

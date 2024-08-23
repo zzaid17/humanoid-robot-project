@@ -12,6 +12,5 @@
   <depend>rosidl_default_generators</depend>
 
   <export>
-    <metapackage/>
   </export>
 </package>
