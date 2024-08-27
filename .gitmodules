@@ -11,3 +11,6 @@
 	path = src/robot_localization
 	url = https://github.com/cra-ros-pkg/robot_localization
 	branch = humble-devel
+[submodule "src/BehaviorTree.CPP"]
+	path = src/BehaviorTree.CPP
+	url = https://github.com/BehaviorTree/BehaviorTree.CPP
