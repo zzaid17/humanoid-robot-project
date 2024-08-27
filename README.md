@@ -1,7 +1,5 @@
 # Humanoid Robot Project: Autonomous Navigation
 
-**Project repository**: [https://github.com/zzaid17/hokuyo_laser_scanner_ws](https://github.com/zzaid17/hokuyo_laser_scanner_ws)
-
 ## Summary
 
 The current prototype can receive and process laser scan data, gather location data using an MPU6050 gyroscope/accelerometer in conjunction with an Arduino ESP32 Wroom, convert this data to IMU data over a serial port which can then be converted to odometry data, and generate a map based on the robot’s surroundings. The next step would be implementing pathing and navigation functionality with this map - e.g., using the ROS 2 navigation stack ([https://github.com/ros-navigation/navigation2](https://github.com/ros-navigation/navigation2)). A Kalman filter should also be implemented for noise reduction in the IMU data.
