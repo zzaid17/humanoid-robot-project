@@ -91,4 +91,4 @@ Despite using the correct network settings, network issues persist. Specifically
 
 The physical connection of the laser scanner was investigated and looked fine, though defective hardware could still be a factor. Another potential cause is the scanner overheating since it becomes warm to the touch after leaving it on for an extended period.
 
-Using the generated map, autonomous navigation can be implemented by using something like ROS 2. The `robot_localization` package should be fixed so that it builds properly. It can be then used to convert IMU data to odometry data for the map using the `ekf.launch` node, which also implements a Kalman filter for noise reduction in the gyroscope and acceleration data.
+Using the generated map, autonomous navigation can be implemented by using something like the ROS 2 navigation stack. The `robot_localization` package should be fixed so that it builds properly. It can then be used to convert IMU data to odometry data for the map using the `ekf.launch` node, which also implements a Kalman filter for noise reduction in the gyroscope and acceleration data.
