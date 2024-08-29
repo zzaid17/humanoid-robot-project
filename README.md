@@ -18,6 +18,8 @@ The following is a list of all the packages. Note that these packages, along wit
   - Generates a map based on laser and location data
 - **BehaviorTree.CPP**: [https://github.com/BehaviorTree/BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
   - Dependency for other packages
+- **navigation2**: [https://github.com/ros-navigation/navigation2](https://github.com/ros-navigation/navigation2)
+  - Responsible for autonomous navigation using mapping and location data
 
 A static transform must be implemented for the map to generate properly. A custom package for this can be found under `s_tf_pub`, within the main repository. The Arduino script for gathering gyroscope and acceleration data can be found in the repository as well.
 
