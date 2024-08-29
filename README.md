@@ -35,7 +35,7 @@ The ROS 2 setup can be found on the official ROS website. The current setup for 
 
 By cloning the project repository, all of the necessary packages and files should automatically download. On Ubuntu, this can be done by pasting the following into the terminal:
 
-`git clone https://github.com/zzaid17/hokuyo_laser_scanner_ws`
+`git clone https://github.com/zzaid17/humanoid-robot-project`
 
 ### Dependencies
 
@@ -58,7 +58,7 @@ Failing to source the proper bash files may cause compilation and build issues. 
 `source /workspace/install/local_setup.bash`  
 `source /workspace/install/package/share/package/local_setup.bash`
 
-Step 3 should be repeated for each package, replacing `package` with the package name.
+Step 3 should be repeated for each package, replacing `package` with the package name. For steps 2 and 3, replace `workspace` with the ROS 2 workspace name.
 
 ### Running Nodes
 
