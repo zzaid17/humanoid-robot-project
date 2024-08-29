@@ -2,7 +2,7 @@
 
 ## Summary
 
-The current prototype can receive and process laser scan data, gather location data using an MPU6050 gyroscope/accelerometer in conjunction with an Arduino ESP32 Wroom, convert this data to IMU data over a serial port which can then be converted to odometry data, and generate a map based on the robot’s surroundings. The next step would be implementing pathing and navigation functionality with this map - e.g., using the ROS 2 navigation stack ([https://github.com/ros-navigation/navigation2](https://github.com/ros-navigation/navigation2)). A Kalman filter should also be implemented for noise reduction in the IMU data.
+The current prototype can receive and process laser scan data, gather location data using an MPU6050 gyroscope/accelerometer in conjunction with an Arduino ESP32 Wroom, convert this data to IMU data over a serial port which can then be converted to odometry data, and generate a map based on the robot’s surroundings. The next step would be implementing pathing and navigation functionality with this map by using the ROS 2 navigation stack.
 
 The following is a list of all the packages. Note that these packages, along with the particular versions and edited parameters needed for the project, can also be found in the main GitHub repository as submodules.
 
@@ -60,7 +60,7 @@ Step 3 should be repeated for each package, replacing `package` with the package
 
 ### Running Nodes
 
-The nodes can be launched using the following commands. Make sure to run the included Arduino script first.
+The file launch_nodes.py will automatically launch all of the nodes when executed. For testing or troubleshooting purposes, the individual nodes can be launched using the following terminal commands. Make sure to run the included Arduino script first in either case.
 
 `ros2 launch urg_node2 urg_node2.launch.py`  
 `ros2 launch slam_toolbox online_sync_launch.py`  
@@ -91,4 +91,4 @@ Despite using the correct network settings, network issues persist. Specifically
 
 The physical connection of the laser scanner was investigated and looked fine, though defective hardware could still be a factor. Another potential cause is the scanner overheating since it becomes warm to the touch after leaving it on for an extended period.
 
-Using the generated map, autonomous navigation can be implemented by using something like the ROS 2 navigation stack. The `robot_localization` package should be fixed so that it builds properly. It can then be used to convert IMU data to odometry data for the map using the `ekf.launch` node, which also implements a Kalman filter for noise reduction in the gyroscope and acceleration data.
+Using the generated map, autonomous navigation can be implemented by using something the ROS 2 navigation stack. The `robot_localization` package should be fixed so that it builds properly. It can then be used to convert IMU data to odometry data for the map using the `ekf.launch` node, which also implements a Kalman filter for noise reduction in the gyroscope and acceleration data.
