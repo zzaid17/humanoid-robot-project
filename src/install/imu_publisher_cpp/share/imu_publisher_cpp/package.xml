@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>imu_publisher_cpp</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package to publish IMU data from serial input</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>rosidl_default_generators</depend>
+
+  <export>
+  </export>
+</package>
